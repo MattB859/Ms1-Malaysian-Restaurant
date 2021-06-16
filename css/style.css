@@ -4,17 +4,24 @@
     box-sizing: border-box;
 }
 
-/* navbar styling */
+/* navbar and styling */
 nav{
-    margin-top: 10px;
-    justify-content: center;
-    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(20, 20, 20, 0.986);
+    padding: 20px;
+    z-index: 1;
 }
 
 li a{ 
+    text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 15px;
+}
+
+li a:hover{
+    color: rgb(218, 52, 85);
 }
 
 nav .logo{
@@ -34,25 +41,48 @@ nav .logo span{
 
 /* home styling */
 .home_content h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Volkhov', serif;
+    font-family: 'Merienda', cursive;
     margin-top: 250px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 5vw;
     color: rgb(245, 243, 243);
 }
 
-
 /* credit: code taken from css trick and edited 
    slighty to fit projects needs*/
-body {
-    background-image: url('../images/home-image.jpg');
+.bg_image {
+    background: url('../images/home-image.jpg') no-repeat center center;
     background-size: cover;
-    background-size: center center;
-    background-position: center;
-
+    background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    justify-content: center;
+    position: relative;
     height: 100vh; 
 }
 
 button {
     margin-top: 40px;
+}
+
+/* about section styling */
+.about_content {
+    height: 200vh;
+    background-color: rgb(64, 126, 133);
+}
+
+.about_content h1{
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+}
+
+
+hr {
+    margin: 0 auto;
+    border: rgb(158, 21, 21) solid 2px ;
+    width: 100px;
+    
 }
