@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-/* nav styling */
-nav {
+/* navbar styling */
+nav{
     margin-top: 10px;
     justify-content: center;
     display: flex;
@@ -21,19 +21,26 @@ nav .logo{
     font-family: 'Parisienne', cursive;
     font-weight: 600;
     font-size: 55px;
+    text-decoration: none;
     position: absolute;
     left: 0;
-    margin-left: 30px;
+    margin-left: 100px;
     color: rgb(233, 233, 233);
 }
 
+nav .logo span{
+    color: rgb(221, 44, 80);
+}
+
 /* home styling */
-.home_content h1 {
+.home_content h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 250px;
-    font-size: 90px;
-    color: #fff;
+    font-weight: 600;
+    font-size: 5vw;
+    color: rgb(245, 243, 243);
 }
+
 
 /* credit: code taken from css trick and edited 
    slighty to fit projects needs*/
@@ -43,10 +50,9 @@ body {
     background-size: center center;
     background-position: center;
 
-    height: 100vh;
-    
-  
-      
-   
+    height: 100vh; 
 }
 
+button {
+    margin-top: 40px;
+}
