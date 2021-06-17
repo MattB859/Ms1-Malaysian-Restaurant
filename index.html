@@ -98,29 +98,40 @@
 
     <!-- Contact Section -->
     <div class="container-fluid">
-        <section class="container">
+        <section class="container" id="contact">
+            <h1 class="title">Contact Us</h1>
             <form action="www.example.com/login.php" method="POST">
-                <fieldset>
-                    <label for="fname">Name:</label>
-                    <input type="text" name="firstname" id="fname" placeholder=" Type here.." required />
-                    <br>
-                    <label for="lname">Last Nmae:</label>
-                    <input type="text" name="lastname" id="lname" placeholder=" Type here.." required />
-                    <br>
-                    <label for="email" name="email">Email Address:</label>
-                    <input type="email" name="email_address" id="email" required />                  
-                    <br>
-                    <textarea name="comments" id="comments" cols="40" rows="10"> Enter your comments... </textarea>
-                    <br>
-                    <input type="submit" value="Contact Us">
-                </fieldset>
+                <div class="row">
+                    <fieldset>
+                        <div class="form-group col-md-6">
+                            <label for="fname">Last Name</label>
+                            <input type="text" class="form-control" name="firstname" id="fname"
+                                placeholder="First name..." required />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" name="lastname" id="lname"
+                                placeholder="Last name..." required />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email" name="email">Email Address:</label>
+                            <input type="email" class="form-control" name="email_address"
+                                placeholder="Email@example.com" id="email" required />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <textarea name="comments" class="form-control" id="comments" cols="150"
+                                rows="10"> Enter your comments... </textarea>
+                        </div>
+                        <input type="submit" name="submit" value="Contact Us">
+                    </fieldset>
+                </div>
             </form>
         </section>
     </div>
 
 
 
-
+    <!-- Footer -->
 
 
 
