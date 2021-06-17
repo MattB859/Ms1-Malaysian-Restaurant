@@ -55,7 +55,7 @@ nav .logo span{
     margin-top: 250px;
     font-weight: 500;
     font-size: 5vw;
-    color: rgba(255, 222, 115, 0.849);
+    color: rgba(243, 231, 192, 0.849);
 }
 
 /* credit: code taken from css trick and edited 
@@ -74,7 +74,7 @@ button {
 
 /* about section styling */
 .about_content {
-    height: 100%;
+    height: 100vh;
     font-family: 'Volkhov', serif;
     background-color: rgb(245, 245, 245);
 }
@@ -88,12 +88,11 @@ button {
     color: #000;
 }
 
-
 hr {
     margin: 0 auto;
     border: rgb(158, 21, 21) solid 3px ;
     border-radius: 10px;
-    width: 150px;
+    width: 100px;
     
 }
 
@@ -104,6 +103,21 @@ hr {
 
 .text {
     font-size: 20px;
+}
+
+/* about section styling */
+.chef_content {
+    height: 100vh;
+    font-family: Arial ;
+    font-weight: normal;
+    color: #fff;
+    word-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    background-color: rgba(28, 28, 44, 0.966);
+}
+
+.chef_content h1{
+    color: #fff;
 }
 
 @media only screen and (max-width: 1200px) {
