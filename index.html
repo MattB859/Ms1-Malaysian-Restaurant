@@ -8,30 +8,32 @@
     <title>malaysian restaurant | malaysian food</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Parisienne&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Parisienne&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda&display=swap">   
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
-    <!-- Header and Navigation -->
-    <header>
-        <nav>
-            <h1><a class="logo" href="#"><span>M</span>aya's</a></h1>
-            <ul class="navbar-nav navbar-expand-md justify-content-center">
-                <li class="nav-item mr-5"><a class="nav-link" href="#">home</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#">about</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#">chefs</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#">reservation</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#">gallery</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#">contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Home Page Section -->
-    <div class="container-fluid">
-        <div class="container home-container">
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <h1><a class="logo" href="#home"><span>M</span>ayas house</a></h1>
+            <ul class=" navbar-nav navbar-expand-md justify-content-end">
+                <li class="nav-item mr-5"><a class="nav-link" href="#home">home</a></li>
+                <li class="nav-item mr-5"><a class="nav-link" href="#about">about</a></li>
+                <li class="nav-item mr-5"><a class="nav-link" href="#chefs">chefs</a></li>
+                <li class="nav-item mr-5"><a class="nav-link" href="#reservation">reservation</a></li>
+                <li class="nav-item mr-5"><a class="nav-link" href="#gallery">gallery</a></li>
+                <li class="nav-item mr-5"><a class="nav-link" href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Home Section -->
+    <div class="container-fluid bg_image">
+        <div class="container">
             <section id="home">
                 <div class="row">
                     <div class="col-md-6">
@@ -43,6 +45,47 @@
                 </div>
             </section>
         </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="container-fluid about_content">
+        <section class="container" id="about">
+            <h1 class="title">About Mayas</h1>
+            <hr class="heading_line">
+            <div class="row">
+                <div class="col-xl-6">
+                    <img src="/images/about-img.jpg" width="100%" alt="picture of food in a bole">
+                </div>
+                <div class="col-xl-6">
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+                        dicta asperiores laborum. Facere aut ut, ex expedita similique corrupti
+                        voluptatem accusantium quaerat, illo sit consequuntur ipsa modi exercitationem,
+                        nihil eveniet?
+                        Iste architecto culpa vero expedita ipsum mollitia
+                        accusantium cupiditate facilis libero quidem, rem at aliquid
+                        inventore sit sapiente dolor facere impedit. Consectetur.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- chefs Section -->
+    <div class="container-fluid chef_content">
+        <section class="container" id="chefs">
+            <h1 class="title">Chefs</h1>
+            <hr class="heading_line">
+            <div class="row">
+                <div class="col-xl-6">
+                    <p class="text">Partnering with some of the most talented chefs from the best West End restaurants, each exclusive dish is beautifully executed right here in our central London ghost kitchen. For the first time you can select from from multiple restaurants in one single order.
+                        Simply peruse our menu, choose your food and sit back as our chefs work their magic. We'll whisk your order to your door using groundbreaking delivery tech and 100% eco packaging, which cleverly keeps each dish in pristine condition.
+                    </p>
+                </div>
+                <div class="col-xl-6">
+                    <img src="/images/chef-2.jpg" width="100%" alt="picture of food in a bole">
+                </div>
+            </div>
+        </section>
     </div>
 
 
