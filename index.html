@@ -27,10 +27,12 @@
                 <li class="nav-item mr-5"><a class="nav-link" href="#reservation">reservation</a></li>
                 <li class="nav-item mr-5"><a class="nav-link" href="#gallery">gallery</a></li>
                 <li class="nav-item mr-5"><a class="nav-link" href="#contact">contact</a></li>
+                <i class="far fa-user-circle" style="color: aliceblue;"></i>
             </ul>
+            
         </div>
     </nav>
-    
+
     <!-- Home Section -->
     <div class="container-fluid bg_image">
         <div class="container">
@@ -77,14 +79,42 @@
             <hr class="heading_line">
             <div class="row">
                 <div class="col-xl-6">
-                    <p class="text">Partnering with some of the most talented chefs from the best West End restaurants, each exclusive dish is beautifully executed right here in our central London ghost kitchen. For the first time you can select from from multiple restaurants in one single order.
-                        Simply peruse our menu, choose your food and sit back as our chefs work their magic. We'll whisk your order to your door using groundbreaking delivery tech and 100% eco packaging, which cleverly keeps each dish in pristine condition.
+                    <p class="text">Partnering with some of the most talented chefs
+                        from the best West End restaurants, each exclusive dish is
+                        beautifully executed right here in our central London ghost
+                        kitchen. For the first time you can select from from multiple
+                        restaurants in one single order.
+                        Simply peruse our menu, choose your food and sit back as our chefs work their
+                        magic. We'll whisk your order to your door using groundbreaking delivery tech
+                        and 100% eco packaging, which cleverly keeps each dish in pristine condition.
                     </p>
                 </div>
                 <div class="col-xl-6">
                     <img src="/images/chef-2.jpg" width="100%" alt="picture of food in a bole">
                 </div>
             </div>
+        </section>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container-fluid">
+        <section class="container">
+            <form action="www.example.com/login.php" method="POST">
+                <fieldset>
+                    <label for="fname">Name:</label>
+                    <input type="text" name="firstname" id="fname" placeholder=" Type here.." required />
+                    <br>
+                    <label for="lname">Last Nmae:</label>
+                    <input type="text" name="lastname" id="lname" placeholder=" Type here.." required />
+                    <br>
+                    <label for="email" name="email">Email Address:</label>
+                    <input type="email" name="email_address" id="email" required />                  
+                    <br>
+                    <textarea name="comments" id="comments" cols="40" rows="10"> Enter your comments... </textarea>
+                    <br>
+                    <input type="submit" value="Contact Us">
+                </fieldset>
+            </form>
         </section>
     </div>
 
