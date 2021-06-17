@@ -26,8 +26,7 @@
                 <li class="nav-item mr-5"><a class="nav-link" href="#chefs">chefs</a></li>
                 <li class="nav-item mr-5"><a class="nav-link" href="#reservation">reservation</a></li>
                 <li class="nav-item mr-5"><a class="nav-link" href="#gallery">gallery</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#contact">contact</a></li>
-                <i class="far fa-user-circle" style="color: aliceblue;"></i>
+                <li class="nav-item mr-5"><a class="nav-link" href="#contact">contact</a></li> 
             </ul>
             
         </div>
@@ -93,7 +92,7 @@
                     </p>
                 </div>
                 <div class="col-xl-6">
-                    <img src="/images/chef-2.jpg" width="100%" alt="picture of food in a bole">
+                    <img src="/images/chef-2.jpg" width="100%" alt="picture of chefs">
                 </div>
             </div>
         </section>
@@ -107,33 +106,94 @@
             <hr class="heading_line">
             <form action="www.example.com/login.php" method="POST">
                 <div class="row">
-                    <div class="col-6">
-                        <table>
-                            <th></th>
-                        </table>
+                    <div class="col-xl-6">
+                        <div class="open-hours">
+                            <h2>opening hours <i class="fas fa-glass-martini-alt"></i></h2>
+                           <!--<p>Monday 10:00AM - 11:00PM</p>
+                            <p>Tuesday 10:00AM - 11:00PM</p>
+                            <p>Wednesday 10:00AM - 11:00PM</p>
+                            <p>Thursday 10:00AM - 11:00PM</p>
+                            <p>Friday 10:00AM - 11:00PM</p>
+                            <p>Saturday 10:00AM - 11:00PM</p>
+                            <p>Sunday - Closed</p>
+                            <p>Bank Holiday - Closed</p>-->
+
+                           <table class="table table-borderless">
+                                <thead class="border-bottom">
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col">Opening Times</th>
+                                        <th scope="col">Closing Times</th>
+                                    </tr>
+                                </thead>
+                                <tr scop="row">
+                                    <td>Monday</td>
+                                    <td>10:00AM</td>
+                                    <td>11:00PM</td>
+                                </tr>
+                                <tr scop="row">
+                                    <td>Tuesday</td>
+                                    <td>10:00AM</td>
+                                    <td>11:00PM</td>
+                                </tr>                              
+                                <tr scop="row">
+                                    <td>Wednesday</td>
+                                    <td>10:00AM</td>
+                                    <td>11:00PM</td>
+                                </tr>
+                                <tr scop="row">
+                                    <td>Thursday</td>
+                                    <td>10:00AM</td>
+                                    <td>11:00PM</td>
+                                </tr>                               
+                                <tr scop="row">
+                                    <td>Friday</td>
+                                    <td>10:00AM</td>
+                                    <td>12:00AM</td>
+                                </tr>
+                                <tr scop="row">
+                                    <td>Saturday</td>
+                                    <td>10:00AM</td>
+                                    <td>12:00AM</td>
+                                </tr>
+                                <tr scop="row">
+                                    <td>Sunday</td>
+                                    <td>Closed</td>
+                                    <td>Closed</td>
+                                </tr>
+                                <tr scop="row">
+                                    <td>Bank Holiday</td>
+                                    <td>Closed</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
-                    <fieldset class="field">
-                        <div class="form-group">
-                            <label for="fname">Last Name</label>
-                            <input type="text" class="form-control" name="firstname" id="fname"
-                                placeholder="First name..." required />
-                        </div>
-                        <div class="form-group">
-                            <label for="lname">Last Name</label>
-                            <input type="text" class="form-control" name="lastname" id="lname"
-                                placeholder="Last name..." required />
-                        </div>
-                        <div class="form-group">
-                            <label for="email" name="email">Email Address:</label>
-                            <input type="email" class="form-control" name="email_address"
-                                placeholder="Email@example.com" id="email" required />
-                        </div>
-                        <div class="form-group">
-                            <textarea name="comments" class="form-control" id="comments" cols="80"
-                                rows="10"> Enter your comments... </textarea>
-                        </div>
-                        <input type="submit" class=" btn btn-lg btn-danger " name="submit" value="Contact Us">
-                    </fieldset>
+                    <div class="col-xl-6">
+                        <fieldset class="field">
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" class="form-control" name="firstname" id="fname"
+                                    placeholder="First name..." required />
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" class="form-control" name="lastname" id="lname"
+                                    placeholder="Last name..." required />
+                            </div>
+                            <div class="form-group">
+                                <label for="email" name="email">Email Address</label>
+                                <input type="email" class="form-control" name="email_address"
+                                    placeholder="Email@example.com" id="email" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="comments" class="form-control" id="comments" cols="80"
+                                    rows="10"> Enter your comments... </textarea>
+                            </div>
+                            <input type="submit" class=" btn btn-lg btn-outline-light " name="submit" value="Send Message">
+                        </fieldset>
+                    </div>
                 </div>
             </form>
         </section>
