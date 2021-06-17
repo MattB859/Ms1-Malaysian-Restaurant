@@ -7,7 +7,7 @@
 .container {
     max-width: 1600px;
     padding: 0 80px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 
@@ -15,17 +15,16 @@
 nav{
     width: 100%;
     position: fixed;
-    background-color: rgba(31, 31, 31, 0.993);
+    background-color: rgba(25, 25, 31, 0.986);
     padding: 20px;
-    z-index: 1;
-    
+    z-index: 1;    
 }
 
 li a{ 
     text-transform: uppercase;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     color: rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: 14px;
 }
 
 li a:hover{
@@ -40,8 +39,7 @@ nav .logo{
     color: rgb(233, 233, 233);
     position: absolute;
     left: 0;
-    margin-left: 260px; 
-    
+    margin-left: 260px;    
 }
 
 nav .logo span{
@@ -50,12 +48,11 @@ nav .logo span{
 
 /* home styling */
 .home_content h1{
-
     font-family: 'Merienda', cursive;
     margin-top: 250px;
     font-weight: 500;
     font-size: 5vw;
-    color: rgba(243, 231, 192, 0.849);
+    color: rgb(247, 243, 230);
 }
 
 /* credit: code taken from css trick and edited 
@@ -64,8 +61,7 @@ nav .logo span{
     background: url('../images/home-image.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
-    height: 100vh; 
-    
+    height: 100vh;      
 }
 
 button {
@@ -74,23 +70,24 @@ button {
 
 /* about section styling */
 .about_content {
-    height: 100vh;
-    font-family: 'Volkhov', serif;
+    height: 100%;
+    font-family: Arial;
     background-color: rgb(245, 245, 245);
 }
 
 .title{
+    font-family: 'Volkhov', serif;
     display: inline-block;
     width: 100%;
     margin-top: 50px;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     color: #000;
 }
 
 hr {
     margin: 0 auto;
-    border: rgb(158, 21, 21) solid 3px ;
+    border: rgb(196, 53, 53) solid 3px ;
     border-radius: 10px;
     width: 100px;
     
@@ -105,19 +102,77 @@ hr {
     font-size: 20px;
 }
 
-/* about section styling */
+img {
+    box-shadow: 7px 10px 15px rgb(168, 164, 164);
+}
+
+/* About Section Styling */
 .chef_content {
-    height: 100vh;
-    font-family: Arial ;
+    height: 100%;
+    font-family: Arial;
     font-weight: normal;
     color: #fff;
     word-spacing: 0.5px;
     letter-spacing: 0.5px;
-    background-color: rgba(28, 28, 44, 0.966);
+    background-color: rgb(34, 42, 53);
 }
 
+/* Chef Styling */
 .chef_content h1{
     color: #fff;
+}
+
+/* Form Styling */
+.form_field {
+    background: rgb(234, 235, 238);
+    height: 100%;    
+}
+
+.field{
+    margin-top: 80px;
+    padding: 20px 50px ;
+    color: #fff;
+    border: 10px solid rgb(192, 60, 60);
+    border-radius: 10px;
+    background-color: rgb(34, 42, 53);
+    box-shadow: 10px 5px 25px rgb(80, 80, 80);   
+}
+
+label {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.open-hours {
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    height: 33.5em;
+    border-radius: 5px;
+    box-shadow: 10px 5px 25px rgb(80, 80, 80);
+    background-color: rgb(34, 42, 53);
+    color: rgb(255, 255, 255);
+    border: 10px solid rgb(192, 60, 60);
+    margin-top: 80px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.open-hours h2{
+    font-size: 25px;
+   
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: rgba(223, 223, 223, 0.966);
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    padding: 25px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -128,17 +183,30 @@ hr {
     }
 }
 
-
-@media only screen and (max-width: 700px) {
+/* iPad Screen Size */
+@media only screen and (max-width: 600px) {
     .container {
         max-width: 1900px;
         padding: 0 10px;
         margin: auto;
     }
-
     .col-xl-6{
-        padding: 0px;
+        padding: 50px 0;
         margin-top: 40px;
     }
-    
+    .open-hours {
+        width: 100%;
+        color: #fff;
+        background-color: rgb(34, 42, 53);
+    }
+}
+
+/* Moble Screen Size */
+@media only screen and (max-width: 500px){
+    .bg_image {
+        background: url('../images/home-image.jpg') no-repeat center center;
+        background-size: cover;
+        position: relative;
+        height: 600px;      
+    }
 }
