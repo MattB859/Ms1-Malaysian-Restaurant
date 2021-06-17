@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1600px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
 /* navbar and styling */
 nav{
     width: 100%;
@@ -11,28 +18,30 @@ nav{
     background-color: rgba(20, 20, 20, 0.986);
     padding: 20px;
     z-index: 1;
+    
 }
 
 li a{ 
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 15px;
 }
 
 li a:hover{
-    color: rgb(218, 52, 85);
+    color: rgb(226, 97, 123);
 }
 
 nav .logo{
     font-family: 'Parisienne', cursive;
     font-weight: 600;
-    font-size: 55px;
+    font-size: 45px;
     text-decoration: none;
+    color: rgb(233, 233, 233);
     position: absolute;
     left: 0;
-    margin-left: 100px;
-    color: rgb(233, 233, 233);
+    margin-left: 260px; 
+    
 }
 
 nav .logo span{
@@ -41,7 +50,7 @@ nav .logo span{
 
 /* home styling */
 .home_content h1{
-    font-family: 'Volkhov', serif;
+
     font-family: 'Merienda', cursive;
     margin-top: 250px;
     font-weight: 500;
@@ -54,35 +63,49 @@ nav .logo span{
 .bg_image {
     background: url('../images/home-image.jpg') no-repeat center center;
     background-size: cover;
-    background-position: top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    justify-content: center;
     position: relative;
     height: 100vh; 
+    
 }
 
 button {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 /* about section styling */
 .about_content {
-    height: 200vh;
-    background-color: rgb(64, 126, 133);
+    height: 100%;
+    font-family: 'Volkhov', serif;
+    background-color: rgb(245, 245, 245);
 }
 
-.about_content h1{
+.title{
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: #000;
 }
 
 
 hr {
     margin: 0 auto;
-    border: rgb(158, 21, 21) solid 2px ;
-    width: 100px;
+    border: rgb(158, 21, 21) solid 3px ;
+    border-radius: 10px;
+    width: 150px;
     
+}
+
+.col-xl-6{
+    padding: 60px;
+    margin-top: 40px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+@media (max-width: 720px) {
+   
 }
