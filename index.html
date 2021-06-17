@@ -97,41 +97,43 @@
     </div>
 
     <!-- Contact Section -->
-    <div class="container-fluid">
+    <div class="container-fluid form-field">
         <section class="container" id="contact">
             <h1 class="title">Contact Us</h1>
+            <hr class="heading_line">
             <form action="www.example.com/login.php" method="POST">
                 <div class="row">
-                    <fieldset>
-                        <div class="form-group col-md-6">
+                    <fieldset class="field">
+                        <div class="form-group">
                             <label for="fname">Last Name</label>
                             <input type="text" class="form-control" name="firstname" id="fname"
                                 placeholder="First name..." required />
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label for="lname">Last Name</label>
                             <input type="text" class="form-control" name="lastname" id="lname"
                                 placeholder="Last name..." required />
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group">
                             <label for="email" name="email">Email Address:</label>
                             <input type="email" class="form-control" name="email_address"
                                 placeholder="Email@example.com" id="email" required />
                         </div>
-                        <div class="form-group col-md-6">
-                            <textarea name="comments" class="form-control" id="comments" cols="150"
+                        <div class="form-group">
+                            <textarea name="comments" class="form-control" id="comments" cols="80"
                                 rows="10"> Enter your comments... </textarea>
                         </div>
-                        <input type="submit" name="submit" value="Contact Us">
+                        <input type="submit" class=" btn btn-lg btn-danger " name="submit" value="Contact Us">
                     </fieldset>
                 </div>
             </form>
         </section>
     </div>
 
-
-
     <!-- Footer -->
+    <footer class="footer">
+        <h4 class="info"><i class="far fa-copyright"></i> Copyright - All Rights Reserved 2021 </h4>
+    </footer>
 
 
 
