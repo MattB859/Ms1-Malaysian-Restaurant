@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,27 +7,34 @@
     <title>malaysian restaurant | malaysian food</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Parisienne&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap"> 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda&display=swap">   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Parisienne&display=swap">       
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda&display=swap">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-
 <body>
 
-    <!-- start of navigation -->
+    <!-- start of navigation --> 
     <nav>
         <div class="container">
-            <h1><a class="logo" href="#home"><span>M</span>ayas house</a></h1>
-            <ul class=" navbar-nav navbar-expand-md justify-content-end">
-                <li class="nav-item mr-5"><a class="nav-link" href="#home">home</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#about">about</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#chefs">chefs</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#reservation">reservation</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#gallery">gallery</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#contact">contact</a></li> 
-            </ul>
-            
+            <a class="logo" href="#home"><span>M</span>ayas house</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+
+            <div class="collapse" id="navbarToggleExternalContent">
+                <ul class=" navbar-nav navbar-expand-md justify-content-end">
+                    <li class="nav-item mr-5"><a class="nav-link" href="#home">home</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link" href="#about">about</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link" href="#chefs">chefs</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link" href="#gallery">gallery</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link" href="contact.html">contact</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link" href="#location">location</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!-- end of navigation -->
@@ -42,7 +48,7 @@
                         <div class="home_content">
                             <h1>Authentic Malaysian Cuisine</h1>
                         </div>
-                        <button type="submit" class="btn btn-lg btn-danger" data-toggle="modal">Book A Table</button>
+                        <button type="submit" class="btn btn-lg btn-outline-danger" data-toggle="modal">Book A Table</button>
                     </div>
                 </div>
             </section>
@@ -56,18 +62,21 @@
             <h1 class="title">About Mayas</h1>
             <hr class="heading_line">
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-xl-12">
+                    <p class="text">We are an authentic malaysian
+                        resturant that prides it self on traditional food
+                        started in 2012 we prepare each meal beautifully
+                        to bring you the hottest dish in town.
+                    </p>
+                </div>
+                <div class="col-xl">
                     <img src="/images/about-img.jpg" width="100%" alt="picture of food in a bole">
                 </div>
-                <div class="col-xl-6">
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
-                        dicta asperiores laborum. Facere aut ut, ex expedita similique corrupti
-                        voluptatem accusantium quaerat, illo sit consequuntur ipsa modi exercitationem,
-                        nihil eveniet?
-                        Iste architecto culpa vero expedita ipsum mollitia
-                        accusantium cupiditate facilis libero quidem, rem at aliquid
-                        inventore sit sapiente dolor facere impedit. Consectetur.
-                    </p>
+                <div class="col-xl">
+                    <img src="/images/about-img.jpg" width="100%" alt="picture of food in a bole">
+                </div>
+                <div class="col-xl">
+                    <img src="/images/about-img.jpg" width="100%" alt="picture of food in a bole">
                 </div>
             </div>
         </section>
@@ -99,114 +108,106 @@
     </div>
     <!-- end of chefs section -->
 
-    <!-- start of contact section -->
-    <div class="container-fluid form_field">
-        <section class="container" id="contact">
-            <h1 class="title">Contact Us</h1>
-            <hr class="heading_line">
-            <form action="www.example.com/login.php" method="POST">
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="open-hours">
-                            <h2>opening hours <i class="fas fa-glass-martini-alt"></i></h2>
-                           <!--<p>Monday 10:00AM - 11:00PM</p>
-                            <p>Tuesday 10:00AM - 11:00PM</p>
-                            <p>Wednesday 10:00AM - 11:00PM</p>
-                            <p>Thursday 10:00AM - 11:00PM</p>
-                            <p>Friday 10:00AM - 11:00PM</p>
-                            <p>Saturday 10:00AM - 11:00PM</p>
-                            <p>Sunday - Closed</p>
-                            <p>Bank Holiday - Closed</p>-->
-
-                           <table class="table table-borderless">
-                                <thead class="border-bottom">
-                                    <tr>
-                                        <th scope="col"></th>
-                                        <th scope="col">Opening Times</th>
-                                        <th scope="col">Closing Times</th>
-                                    </tr>
-                                </thead>
-                                <tr scop="row">
-                                    <td>Monday</td>
-                                    <td>10:00AM</td>
-                                    <td>11:00PM</td>
-                                </tr>
-                                <tr scop="row">
-                                    <td>Tuesday</td>
-                                    <td>10:00AM</td>
-                                    <td>11:00PM</td>
-                                </tr>                              
-                                <tr scop="row">
-                                    <td>Wednesday</td>
-                                    <td>10:00AM</td>
-                                    <td>11:00PM</td>
-                                </tr>
-                                <tr scop="row">
-                                    <td>Thursday</td>
-                                    <td>10:00AM</td>
-                                    <td>11:00PM</td>
-                                </tr>                               
-                                <tr scop="row">
-                                    <td>Friday</td>
-                                    <td>10:00AM</td>
-                                    <td>12:00AM</td>
-                                </tr>
-                                <tr scop="row">
-                                    <td>Saturday</td>
-                                    <td>10:00AM</td>
-                                    <td>12:00AM</td>
-                                </tr>
-                                <tr scop="row">
-                                    <td>Sunday</td>
-                                    <td>Closed</td>
-                                    <td>Closed</td>
-                                </tr>
-                                <tr scop="row">
-                                    <td>Bank Holiday</td>
-                                    <td>Closed</td>
-                                    <td>Closed</td>
-                                </tr>
-                            </table>
+    <!-- start of location section-->
+    <div class="container-fluid">
+        <section class="container" id="location">
+            <h1 class="title">Location</h1>
+            <hr>
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="open-hours">
+                        <h2>find us</h2>
+                        <div class="find-us">
+                            <h6> Mayas house</h6>
+                            <h6>50 Melrose Way, London, NW1 4MH</h6>
+                            <h6><i class="fas fa-phone"></i> : 0207 555 6515</h6>
+                            <h6><i class="far fa-envelope"></i> : mayashouse@example.co.ok</h6>
                         </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <fieldset class="field">
-                            <div class="form-group">
-                                <label for="fname">First Name</label>
-                                <input type="text" class="form-control" name="firstname" id="fname"
-                                    placeholder="First name..." required />
-                            </div>
-                            <div class="form-group">
-                                <label for="lname">Last Name</label>
-                                <input type="text" class="form-control" name="lastname" id="lname"
-                                    placeholder="Last name..." required />
-                            </div>
-                            <div class="form-group">
-                                <label for="email" name="email">Email Address</label>
-                                <input type="email" class="form-control" name="email_address"
-                                    placeholder="Email@example.com" id="email" required />
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea name="comments" class="form-control" id="comments" cols="80"
-                                    rows="10"> Enter your comments... </textarea>
-                            </div>
-                            <input type="submit" class=" btn btn-lg btn-outline-light " name="submit" value="Send Message">
-                        </fieldset>
+                        <h2>opening hours <i class="fas fa-glass-martini-alt"></i></h2>
+                        <table class="table table-borderless">
+                            <thead class="border-bottom">
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Opening Times</th>
+                                    <th scope="col">Closing Times</th>
+                                </tr>
+                            </thead>
+                            <tr scop="row">
+                                <td>Monday</td>
+                                <td>10:00AM</td>
+                                <td>11:00PM</td>
+                            </tr>
+                            <tr scop="row">
+                                <td>Tuesday</td>
+                                <td>10:00AM</td>
+                                <td>11:00PM</td>
+                            </tr>
+                            <tr scop="row">
+                                <td>Wednesday</td>
+                                <td>10:00AM</td>
+                                <td>11:00PM</td>
+                            </tr>
+                            <tr scop="row">
+                                <td>Thursday</td>
+                                <td>10:00AM</td>
+                                <td>11:00PM</td>
+                            </tr>
+                            <tr scop="row">
+                                <td>Friday</td>
+                                <td>10:00AM</td>
+                                <td>12:00AM</td>
+                            </tr>
+                            <tr scop="row">
+                                <td>Saturday</td>
+                                <td>10:00AM</td>
+                                <td>12:00AM</td>
+                            </tr>
+                            <tr scop="row">
+                                <td>Sunday</td>
+                                <td>Closed</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr scop="row">
+                                <td>Bank Holiday</td>
+                                <td>Closed</td>
+                                <td>Closed</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
-            </form>
+                <div class="col-xl-6">
+                    <iframe width="100%" height="500px" loading="lazy" style="border: 0;"
+                        src="https://maps.google.co.uk/maps?q=moma+new+york&amp;output=embed">
+                    </iframe>
+                </div>
+            </div>
         </section>
     </div>
-    <!-- end of contact section -->
+    <!-- end of location section-->
 
     <!-- start of footer -->
     <footer class="footer">
-        <h6 class="info"><i class="far fa-copyright"></i> Copyright - All Rights Reserved 2021 </h6>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="social">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1><a class="logo" href="#home"><span>M</span>ayas house</a></h1>
+                <h6 class="info"><i class="far fa-copyright"></i> Copyright - All Rights Reserved 2021 </h6>
+            </div>
+        </div>
     </footer>
     <!-- end of footer -->
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </body>
 
