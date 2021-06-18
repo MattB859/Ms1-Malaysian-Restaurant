@@ -23,11 +23,11 @@
             <h1><a class="logo" href="index.html"><span>M</span>ayas house</a></h1>
             <ul class=" navbar-nav navbar-expand-md justify-content-end">
                 <li class="nav-item mr-5"><a class="nav-link" href="index.html">home</a></li>
-               <!-- <li class="nav-item mr-5"><a class="nav-link" href="#about">about</a></li>
+               <li class="nav-item mr-5"><a class="nav-link" href="#about">about</a></li>
                 <li class="nav-item mr-5"><a class="nav-link" href="#chefs">chefs</a></li>
                 <li class="nav-item mr-5"><a class="nav-link" href="#gallery">gallery</a></li>
                 <li class="nav-item mr-5"><a class="nav-link" href="#contact">contact</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="index.html">location</a></li>-->
+                <li class="nav-item mr-5"><a class="nav-link" href="index.html">location</a></li>
             </ul>
 
         </div>
@@ -50,3 +50,49 @@
         </div>
     </div>
     <!-- end of home section -->
+
+    <!-- start of contact section -->
+    <div class="container-fluid form_field">
+        <section class="container" id="contact">
+            <h1 class="title">Contact Us</h1>
+            <hr class="heading_line">
+            <form action="www.example.com/login.php" method="POST">
+                <div class="row">
+                    <div class="col-xl-2">
+                        <!-- contact info here -->
+                    </div>
+                    <div class="col-xl-8">
+                        <fieldset class="field">
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" class="form-control" name="firstname" id="fname"
+                                    placeholder="First Name..." required />
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" class="form-control" name="lastname" id="lname"
+                                    placeholder="Last Name..." required />
+                            </div>
+                            <div class="form-group">
+                                <label for="email" name="email">Email Address</label>
+                                <input type="email" class="form-control" name="email_address"
+                                    placeholder="Email@example.com" id="email" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="comments" class="form-control" id="comments" cols="80"
+                                    rows="10">Enter Your Comments... </textarea>
+                            </div>
+                            <input type="submit" class=" btn btn-lg btn-outline-light " name="submit"
+                                value="Send Message">
+                        </fieldset>
+                    </div>
+                    <div class="col-xl-2">
+                        <!-- contact info here -->
+                    </div>
+                </div>
+        </section>
+    </div>
+    <!-- end of contact section -->
+
+    
