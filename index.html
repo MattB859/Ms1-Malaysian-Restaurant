@@ -14,19 +14,20 @@
 </head>
 <body>
 
-    <!-- start of navigation --> 
+    <!-- start of navigation -->
     <nav>
         <div class="container">
             <a class="logo" href="#home"><span>M</span>ayas house</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fas fa-bars"></i></span>
+            <button class="navbar-toggler d-lg-none d-md-none" type="button" data-toggle="collapse"
+                data-target="#navbarToggle" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fas fa-bars"></i></span>
             </button>
+            
 
-            <div class="collapse" id="navbarToggleExternalContent">
-                <ul class=" navbar-nav navbar-expand-md justify-content-end">
+            <div class="collapse navbar-collapse d-lg-block d-md-block" id="navbarToggle">         
+                <ul class="navbar-nav navbar-expand-md justify-content-end">
                     <li class="nav-item mr-5"><a class="nav-link" href="#home">home</a></li>
                     <li class="nav-item mr-5"><a class="nav-link" href="#about">about</a></li>
                     <li class="nav-item mr-5"><a class="nav-link" href="#chefs">chefs</a></li>
@@ -34,6 +35,7 @@
                     <li class="nav-item mr-5"><a class="nav-link" href="contact.html">contact</a></li>
                     <li class="nav-item mr-5"><a class="nav-link" href="#location">location</a></li>
                 </ul>
+                
             </div>
         </div>
     </nav>
@@ -41,18 +43,19 @@
 
     <!-- start of home section -->
     <div class="container-fluid bg_image">
-        <div class="container">
-            <section id="home">
+        <section id="home">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="home_content">
                             <h1>Authentic Malaysian Cuisine</h1>
+                            <button type="submit" class="btn btn-lg btn-outline-danger" data-toggle="modal">Book A Table
+                            </button>
                         </div>
-                        <button type="submit" class="btn btn-lg btn-outline-danger" data-toggle="modal">Book A Table</button>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     </div>
     <!-- end of home section -->
 
