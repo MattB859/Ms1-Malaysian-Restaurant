@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>malaysian restaurant | malaysian food</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Parisienne&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Parisienne&display=swap">    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda&display=swap">
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -19,15 +18,21 @@
 
     <!-- start of navigation -->
     <nav>
-        <div class="container">
-            <h1><a class="logo" href="index.html"><span>M</span>ayas house</a></h1>
-            <ul class=" navbar-nav navbar-expand-md justify-content-end">
+        <div class="main-container">
+            <a class="logo" href="#home"><span>M</span>ayas house</a>
+
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#navbarToggle" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fas fa-bars"></i></span>
+            </button>
+            
+            <div class="collapse navbar-collapse d-lg-block" id="navbarToggle">         
+                <ul class="navbar-nav navbar-expand-lg justify-content-end">
                 <li class="nav-item mr-5"><a class="nav-link" href="index.html">home</a></li>
-               <li class="nav-item mr-5"><a class="nav-link" href="#about">about</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="#chefs">chefs</a></li>
                 <li class="nav-item mr-5"><a class="nav-link" href="#gallery">gallery</a></li>
                 <li class="nav-item mr-5"><a class="nav-link" href="#contact">contact</a></li>
-                <li class="nav-item mr-5"><a class="nav-link" href="index.html">location</a></li>
+              
             </ul>
 
         </div>
@@ -53,10 +58,9 @@
 
     <!-- start of contact section -->
     <div class="container-fluid form_field">
-        <section class="container" id="contact">
-            <h1 class="title">Contact Us</h1>
-            <hr class="heading_line">
-            <form action="www.example.com/login.php" method="POST">
+        <section id="contact">
+            <h1 class="contact-title">Contact Us</h1>
+            <form action="/action_page.php" method="POST">
                 <div class="row">
                     <div class="col-xl-2">
                         <!-- contact info here -->
@@ -65,25 +69,25 @@
                         <fieldset class="field">
                             <div class="form-group">
                                 <label for="fname">First Name</label>
-                                <input type="text" class="form-control" name="firstname" id="fname"
+                                <input type="text" class="form-control form-control-sm" name="fname" id="fname"
                                     placeholder="First Name..." required />
                             </div>
                             <div class="form-group">
                                 <label for="lname">Last Name</label>
-                                <input type="text" class="form-control" name="lastname" id="lname"
+                                <input type="text" class="form-control form-control-sm" name="lname" id="lname"
                                     placeholder="Last Name..." required />
                             </div>
                             <div class="form-group">
                                 <label for="email" name="email">Email Address</label>
-                                <input type="email" class="form-control" name="email_address"
+                                <input type="email" class="form-control form-control-sm" name="email"
                                     placeholder="Email@example.com" id="email" required />
                             </div>
                             <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea name="comments" class="form-control" id="comments" cols="80"
-                                    rows="10">Enter Your Comments... </textarea>
+                                <label for="comments">Message</label>
+                                <textarea name="comments" class="form-control form-control-sm" id="comments" cols="80"
+                                    rows="8">Enter Your Comments... </textarea>
                             </div>
-                            <input type="submit" class=" btn btn-lg btn-outline-light " name="submit"
+                            <input type="submit" class="btn btn-lg btn-outline-light" name="submit"
                                 value="Send Message">
                         </fieldset>
                     </div>
@@ -95,4 +99,23 @@
     </div>
     <!-- end of contact section -->
 
-    
+    <!-- start of footer -->
+    <footer class="footer">
+        <div class="main-container">
+            <div class="social">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>             
+            <h6 class="info"><i class="far fa-copyright"></i> Copyright - All Rights Reserved 2021 </h6>           
+    </footer>
+    <!-- end of footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html> 
