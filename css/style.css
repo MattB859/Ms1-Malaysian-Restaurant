@@ -57,7 +57,6 @@ nav .logo span{
 .home_content h1{
     font-family: 'Merienda', cursive;
     text-transform: uppercase;
-    
     margin-top: 280px;
     font-weight: 800;
     font-size: 5vw;
@@ -70,8 +69,7 @@ nav .logo span{
     background: url('../images/hero-img.jpg') no-repeat center bottom;
     background-size: cover;
     position: relative;
-    height: 1000px; 
-      
+    height: 1000px;    
 }
 
 /* credit: code taken from css trick and edited 
@@ -275,9 +273,29 @@ iframe {
     color: rgb(40, 103, 250);
 }
 
-/* media query for mobile responsiveness */
+/* media query for ipad pro responsive screen size */
+@media only screen and (max-width: 1197px) {
 
-/* iPad Screen Size */
+    .main-container {
+        max-width: 1600px;
+        padding: 0 10px;
+        margin: auto;
+    }
+
+    .field{
+        width: 100%;
+    }
+
+    .open-hours {
+        width: 100%;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        background-color: rgb(241, 241, 241);
+    }
+}
+
+
+/* media query for ipad responsive screen size */
 @media only screen and (max-width: 800px) {
 
     .main-container {
@@ -360,12 +378,10 @@ iframe {
         font-size: 35px;
         color: rgb(255, 255, 255);
     }
-    
-
 }
 
 
-/* Moble Screen Size */
+/* media query for small mobile screen size */
 @media only screen and (max-width: 540px){
 
     .main-container{
@@ -542,15 +558,24 @@ iframe {
     }
 
     .home_content .btn{
-        margin-top: 60px;
+        margin-top: 30px;
         text-transform: uppercase;
         font-size: 17px;
-        padding: 15px 20px;
+        padding: 10px 15px;
         font-weight: 500;
         background-color: crimson;
         color: #fff;
     }
 
+    .home_content h1{
+        font-family: 'Merienda', cursive;
+        text-transform: uppercase;
+        margin-top: 50px;
+        font-weight: 800;
+        font-size: 40px;
+        color: rgb(247, 243, 230);
+    }
+    
     .field{
         width: 100%;
         padding: 10px 10px;
@@ -574,7 +599,6 @@ iframe {
 
     .rows{
         padding: -100px;
-
     }
 
     .open-hours h2{
@@ -590,9 +614,14 @@ iframe {
     .open-hours h6{
         font-weight: 800;
         font-size: 12px;
-      
     }
 
+    .open-hours {
+        padding: 10px;
+        margin-top: 10px;;
+    }
+
+    
     .table th{
         width: 100%;
         font-size: 12px;
@@ -601,5 +630,13 @@ iframe {
     .scop td{
         width: 100%;
        
+    }
+
+    .table-data td{
+        font-size: 10px;
+    }
+
+    .col-xl-6{
+        margin: 0;
     }
 } 
