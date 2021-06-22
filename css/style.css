@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.container {
+.main-container {
     max-width: 1600px;
-    padding: 0 80px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -20,7 +20,9 @@
 nav{
     width: 100%;
     position: fixed;
-    background-color: rgb(25, 25, 31);
+    left: 0;
+    top: 0;
+    background-color: rgba(11, 11, 12, 0.98);
     padding: 20px 0 30px;
     z-index: 1;    
 }
@@ -39,12 +41,13 @@ li a:hover{
 nav .logo{
     font-family: 'Parisienne', cursive;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 40px;
     text-decoration: none;
     color: rgb(233, 233, 233);
+    bottom: 20px;
     position: absolute;
-    left: 0;
-    margin-left: 260px;    
+    
+       
 }
 
 nav .logo span{
@@ -56,16 +59,17 @@ nav .logo span{
 /* home section styling */
 .home_content h1{
     font-family: 'Merienda', cursive;
+    text-transform: uppercase;
     margin-top: 250px;
-    font-weight: 500;
-    font-size: 5vw;
+    font-weight: 800;
+    font-size: 4vw;
     color: rgb(247, 243, 230);
 }
 
 /* credit: code taken from css trick and edited 
    slighty to fit projects needs*/
 .bg_image {
-    background: url('../images/home-image.jpg') no-repeat bottom ;
+    background: url('../images/hero-img.jpg') no-repeat center bottom;
     background-size: cover;
     position: relative;
     height: 100vh;   
@@ -76,9 +80,9 @@ nav .logo span{
     background: url('../images/restaurant-img.jpg') no-repeat center bottom;
     background-size: cover;
     position: relative;
-    height: 60vh; 
+    height: 100vh; 
     margin-top: 85px;
-      
+    
 }
 
 .hero-outer {
@@ -308,6 +312,11 @@ iframe {
     .col-xl-12 {
         padding: 0;
     }
+    
+    nav {
+        position: relative;
+        padding: 15px;
+    }
 }
     
 /* iPad Screen Size */
@@ -349,11 +358,19 @@ iframe {
 
 /* Moble Screen Size */
 @media only screen and (max-width: 500px){
+
+    .main-container{
+        max-width: 1600px;
+        padding: 5px;
+        margin: auto;
+    }
+
     .bg_image {
-        background: url('../images/home-image.jpg') no-repeat bottom  ;
+        background: url('../images/hero-img.jpg') no-repeat center  ;
         background-size: cover;
         position: relative;
-        height: 55vh;        
+        height: 100vh;
+        bottom: 10px;        
     }
 
     .home_content h1{
@@ -367,7 +384,14 @@ iframe {
     }
 
     nav {
+        position: relative;
         padding: 15px;
+    }
+
+    li a{
+        text-align: center;
+        padding: 0 100px 0;
+        font-size: 20px;
     }
 
     
