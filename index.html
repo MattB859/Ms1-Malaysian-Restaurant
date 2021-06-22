@@ -16,18 +16,17 @@
 
     <!-- start of navigation -->
     <nav>
-        <div class="container">
+        <div class="main-container">
             <a class="logo" href="#home"><span>M</span>ayas house</a>
 
-            <button class="navbar-toggler d-lg-none d-md-none" type="button" data-toggle="collapse"
+            <button class="navbar-toggler d-lg-none collapse" type="button" data-toggle="collapse"
                 data-target="#navbarToggle" aria-controls="navbarToggleExternalContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="fas fa-bars"></i></span>
             </button>
             
-
-            <div class="collapse navbar-collapse d-lg-block d-md-block" id="navbarToggle">         
-                <ul class="navbar-nav navbar-expand-md justify-content-end">
+            <div class="collapse navbar-collapse d-lg-block" id="navbarToggle">         
+                <ul class="navbar-nav navbar-expand-lg justify-content-end">
                     <li class="nav-item mr-5"><a class="nav-link" href="#home">home</a></li>
                     <li class="nav-item mr-5"><a class="nav-link" href="#about">about</a></li>
                     <li class="nav-item mr-5"><a class="nav-link" href="#chefs">chefs</a></li>
@@ -42,16 +41,15 @@
     <!-- end of navigation -->
 
     <!-- start of home section -->
-    <div class="container-fluid bg_image">
-        <section id="home">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="home_content">
-                            <h1>Authentic Malaysian Cuisine</h1>
-                            <button type="submit" class="btn btn-lg btn-outline-danger" data-toggle="modal">Book A Table
-                            </button>
-                        </div>
+    <div class="container-fluid bg_image home_content">
+        <section class="main-container" id="home">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="home_content">
+                        <h1>taste our malaysian cuisine</h1>
+                        <a href="contact.html"><button type="submit" class="btn btn-lg btn-outline-danger"
+                                data-toggle="modal">Book A Table
+                        </button></a>
                     </div>
                 </div>
             </div>
@@ -61,25 +59,29 @@
 
     <!-- start of about section -->
     <div class="container-fluid about_content">
-        <section class="container" id="about">
+        <section class="main-container" id="about">
             <h1 class="title">About Mayas</h1>
             <hr class="heading_line">
             <div class="row">
                 <div class="col-xl-12">
-                    <p class="text">We are an authentic malaysian
+                    <p class="text">
+                        We are an authentic malaysian
                         resturant that prides it self on traditional food
                         started in 2012 we prepare each meal beautifully
-                        to bring you the hottest dish in town.
+                        to bring you the hottest dish in town. We'll whisk 
+                        your order to your door using groundbreaking delivery tech
+                        and 100% eco packaging, which cleverly keeps each dish in 
+                        pristine condition.
                     </p>
                 </div>
                 <div class="col-xl">
                     <img src="/images/about-img.jpg" width="100%" alt="picture of food in a bole">
                 </div>
                 <div class="col-xl">
-                    <img src="/images/about-img.jpg" width="100%" alt="picture of food in a bole">
+                    <img src="/images/roti-tisu.jpg" width="100%" alt="picture of food in a bole">
                 </div>
                 <div class="col-xl">
-                    <img src="/images/about-img.jpg" width="100%" alt="picture of food in a bole">
+                    <img src="/images/satay-img.jpg" width="100%" alt="picture of food in a bole">
                 </div>
             </div>
         </section>
@@ -88,7 +90,7 @@
 
     <!-- start of chefs Section -->
     <div class="container-fluid chef_content">
-        <section class="container" id="chefs">
+        <section class="main-container" id="chefs">
             <h1 class="title">Chefs</h1>
             <hr class="heading_line">
             <div class="row">
@@ -113,7 +115,7 @@
 
     <!-- start of location section-->
     <div class="container-fluid">
-        <section class="container" id="location">
+        <section class="main-container" id="location">
             <h1 class="title">Location</h1>
             <hr>
             <div class="row">
@@ -190,21 +192,14 @@
 
     <!-- start of footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="social">
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
+        <div class="main-container">
+            <div class="social">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </div>
-            <div>
-                <h1><a class="logo" href="#home"><span>M</span>ayas house</a></h1>
-                <h6 class="info"><i class="far fa-copyright"></i> Copyright - All Rights Reserved 2021 </h6>
-            </div>
-        </div>
+        </div>             
+            <h6 class="info"><i class="far fa-copyright"></i> Copyright - All Rights Reserved 2021 </h6>           
     </footer>
     <!-- end of footer -->
 
