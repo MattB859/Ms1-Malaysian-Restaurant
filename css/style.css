@@ -57,9 +57,10 @@ nav .logo span{
 .home_content h1{
     font-family: 'Merienda', cursive;
     text-transform: uppercase;
-    margin-top: 250px;
+    
+    margin-top: 280px;
     font-weight: 800;
-    font-size: 4vw;
+    font-size: 5vw;
     color: rgb(247, 243, 230);
 }
 
@@ -75,12 +76,13 @@ nav .logo span{
 
 /* credit: code taken from css trick and edited 
    slighty to fit projects needs*/
+
 .bg-contact_image {
-    background: url('../images/restaurant-img.jpg') no-repeat center bottom;
-    background-size: cover;
-    position: relative;
-    height: 1000px  
-}
+        background: url('../images/restaurant-img.jpg') no-repeat center bottom;
+        background-size: cover;
+        position: relative;
+        height: 100vh;      
+    }
 
 /* hero image */
 .hero-outer {
@@ -163,15 +165,9 @@ hr {
     margin-bottom: 50px;
 }
 
-
 /* contact form styling */
-.form_field {
-    position: absolute;
-    bottom: 1px;    
-}
-
 .field{
-    margin: 10px auto 200px;
+    margin: 20px auto ;
     width: 600px;
     padding: 20px 50px;
     color: #fff;
@@ -191,15 +187,9 @@ label {
     font-weight: 500; 
 }
 
-.question {
-    font-size: 20px;
-    text-align: center;
-    margin: 40px 0 0;
-}
-
 .contact-title {
     font-family: 'Volkhov', serif;
-    width: 100%;
+    margin-top: 150px;
     background-color: rgba(0, 0, 0, 0.801);
     text-transform: uppercase;
     font-weight: bold;
@@ -262,21 +252,7 @@ iframe {
     bottom: 0;
     left: 0;
     color: rgb(255, 255, 255);
-    padding: 50px;
-}
-
-.footer .logo{
-    font-family: 'Parisienne', cursive;
-    font-weight: 600;
-    font-size: 45px;
-    text-decoration: none;
-    color: rgb(233, 233, 233);
-    text-align: center;
-    margin: 50px;  
-}
-
-.footer .logo span{
-    color: rgb(221, 44, 80);
+    padding: 30px;
 }
 
 
@@ -303,11 +279,28 @@ iframe {
 
 /* iPad Screen Size */
 @media only screen and (max-width: 800px) {
+
     .main-container {
-        max-width: 1600px;
+        max-width: 1200px;
         padding: 0 10px;
         margin: auto;
     }
+
+    .bg_image {
+        background: url('../images/hero-img.jpg') no-repeat center;
+        background-size: cover;
+        position: relative;
+        height: 100vh;
+        bottom: 10px;        
+    }
+
+    .bg-contact_image {
+        background: url('../images/restaurant-img.jpg') no-repeat center bottom;
+        background-size: cover;
+        position: relative;
+        height: 100vh;     
+    }
+
 
     .home_content h1{
         background-color: rgba(0, 0, 0, 0.623);
@@ -373,11 +366,11 @@ iframe {
 
 
 /* Moble Screen Size */
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 540px){
 
     .main-container{
         max-width: 600px;
-        padding: 10px;
+        padding: 0 10px;
         margin: auto;
     }
 
@@ -458,13 +451,25 @@ iframe {
         margin: 30px 0px;
     }
 
-    .home-content .btn{
-        font-size: 10px;
-        padding: 10px 20px;
+    .home_content .btn{
+        margin-top: 60px;
+        text-transform: uppercase;
+        font-size: 17px;
+        padding: 15px 20px;
+        font-weight: 500;
+        background-color: crimson;
+        color: #fff;
     }
 
+    .contact-title{
+        margin-top: 20px;
+    }
 
-  
+    .btn {
+
+        font-size: 10px;
+        padding: 10px 10px;
+    }
 
     .field{
         width: 100%;
@@ -474,7 +479,6 @@ iframe {
         border: 10px solid rgb(235, 235, 235);
         background-color: rgba(7, 7, 7, 0.808);   
     }
-
 
     .footer {
         text-align: center;
@@ -512,13 +516,12 @@ iframe {
     }
 }
 
-
 /* Moble Screen Size 320px and under */
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 375px){
 
     .main-container{
-        max-width: 320px;
-        padding: 10px;
+        max-width: 500px;
+        padding: 0 10px;
         margin: auto;
     }
 
@@ -535,8 +538,17 @@ iframe {
         background: url('../images/restaurant-img.jpg') no-repeat center bottom;
         background-size: cover;
         position: relative;
-        height: 100vh; 
-        
+        height: 100vh;   
+    }
+
+    .home_content .btn{
+        margin-top: 60px;
+        text-transform: uppercase;
+        font-size: 17px;
+        padding: 15px 20px;
+        font-weight: 500;
+        background-color: crimson;
+        color: #fff;
     }
 
     .field{
