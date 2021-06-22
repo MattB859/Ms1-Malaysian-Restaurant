@@ -45,15 +45,12 @@ nav .logo{
     text-decoration: none;
     color: rgb(233, 233, 233);
     bottom: 20px;
-    position: absolute;
-    
-       
+    position: absolute;      
 }
 
 nav .logo span{
     color: rgb(221, 44, 80);
 }
-/* end of navbar and styling */
 
 
 /* home section styling */
@@ -72,17 +69,15 @@ nav .logo span{
     background: url('../images/hero-img.jpg') no-repeat center bottom;
     background-size: cover;
     position: relative;
-    height: 100vh;   
-   
+    height: 100vh;
+    
 }
 
 .bg-contact_image {
     background: url('../images/restaurant-img.jpg') no-repeat center bottom;
     background-size: cover;
     position: relative;
-    height: 100vh; 
-    margin-top: 85px;
-    
+    height: 100vh;  
 }
 
 .hero-outer {
@@ -93,10 +88,12 @@ nav .logo span{
 /* end of home section styling */
 
 /* button override styling */
-.btn{
+.home_content .btn{
     margin-top: 60px;
-    padding: 14px 30px;
-    border: 2px solid rgb(196, 53, 53);
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 20px 40px;
+    border: 3px solid rgb(196, 53, 53);
     color: #fff;
 }
 
@@ -114,6 +111,7 @@ nav .logo span{
 }
 
 .about_content h1{
+    text-transform: uppercase;
     margin-top: 100px;
 }
 
@@ -150,11 +148,12 @@ hr {
     color: #fff;
     word-spacing: 0.5px;
     letter-spacing: 0.5px;
-    background-color: rgb(34, 42, 53);
+    background-color: rgb(22, 63, 31);
 }
 
 .chef_content h1{
     color: #fff;
+    text-transform: uppercase;
     margin-top: 100px;
 }
 
@@ -165,24 +164,30 @@ hr {
 
 /* contact form styling */
 .form_field {
-    background: rgb(234, 235, 238);
-    height: 100%;    
+    position: absolute;
+    bottom: 1px;
+     
 }
 
 .field{
-    margin: 80px auto;
+    margin: 10px auto 200px;
     width: 600px;
     padding: 20px 50px;
     color: #fff;
     border: 10px solid rgb(235, 235, 235);
-    background-color: rgb(34, 42, 53);
-    box-shadow: 10px 5px 25px rgb(80, 80, 80);   
+    background-color: rgba(7, 7, 7, 0.808); 
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 10px 40px;
+    color: #fff;
 }
 
 label {
     font-size: 17px;
-    font-weight: 500;
-   
+    font-weight: 500; 
 }
 
 .question {
@@ -191,7 +196,18 @@ label {
     margin: 40px 0 0;
 }
 
-/* end of contact form styling */
+.contact-title {
+    font-family: 'Volkhov', serif;
+    width: 100%;
+    margin-top: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+
+}
+
 
 /* location styling */
 .title{
@@ -238,14 +254,17 @@ label {
 iframe {
     margin-top: 90px;
 }
-/* end of location styling */
+
 
 
 /* footer styling */
 .footer {
+    position: relative;
+    width: 100%;
     text-align: center;
     background: rgb(17, 17, 17);
     bottom: 0;
+    left: 0;
     color: rgb(255, 255, 255);
     padding: 50px;
 }
@@ -284,8 +303,10 @@ iframe {
     color: rgb(40, 103, 250);
 }
 
+/* media query styling */
+
 @media only screen and (max-width: 1200px) {
-    .container {
+    .main-container {
         max-width: 1900px;
         padding: 0 10px;
         margin: auto;
@@ -305,6 +326,12 @@ iframe {
 
 /* iPad Screen Size */
 @media only screen and (max-width: 800px) {
+    .main-container {
+        max-width: 1900px;
+        padding: 0 20px;
+        margin: auto;
+    }
+
     .field {
         width: 100%;  
     }
@@ -314,18 +341,89 @@ iframe {
     }
     
     nav {
+        text-align: right;
         position: relative;
         padding: 15px;
     }
+    nav .logo {
+        position: relative;
+        font-size: 30px;
+        top: 10px;
+        float: left;
+    }
+
+    li a{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .footer .social{
+        align-items: center;
+        left: 0;
+        right: 0;
+        
+        font-size: 30px;
+    }
+
 }
-    
-/* iPad Screen Size */
-@media only screen and (max-width: 600px) {
-    .container {
-        max-width: 1900px;
-        padding: 0 10px;
+
+
+/* Moble Screen Size */
+@media only screen and (max-width: 500px){
+
+    .main-container{
+        max-width: 1600px;
+        padding: 10px;
         margin: auto;
     }
+
+    .bg_image {
+        background: url('../images/hero-img.jpg') no-repeat center  ;
+        background-size: cover;
+        position: relative;
+        height: 100vh;
+        bottom: 10px;        
+    }
+
+    .bg-contact_image {
+        background: url('../images/restaurant-img.jpg') no-repeat center bottom;
+        background-size: cover;
+        position: relative;
+        height: 100vh; 
+        
+    }
+
+    .home_content h1{
+        font-size: 45px;
+        padding: 30px 20px;
+        margin-top: 100px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.699);
+    }
+
+    nav {
+        width: 100%;
+        text-align: right;
+        position: relative;
+        padding: 15px;
+        left: 0;
+        top: 0;
+        background-color: rgba(11, 11, 12, 0.98); 
+    }
+    
+    li a{
+        text-align: center;
+        padding: 0 100px 0;
+        font-size: 20px;
+    }
+
+    .footer .social{
+        align-items: center;
+        left: 0;
+        right: 0;
+        font-size: 20px;
+    }
+
     .col-xl-6{
         padding: 50px 0;
         margin-top: 40px;
@@ -354,60 +452,36 @@ iframe {
         margin: 30px 0px;
     }
 
-}
-
-/* Moble Screen Size */
-@media only screen and (max-width: 500px){
-
-    .main-container{
-        max-width: 1600px;
-        padding: 5px;
-        margin: auto;
-    }
-
-    .bg_image {
-        background: url('../images/hero-img.jpg') no-repeat center  ;
-        background-size: cover;
-        position: relative;
-        height: 100vh;
-        bottom: 10px;        
-    }
-
-    .home_content h1{
-        font-size: 35px;
-        padding: 0 20px;
-        margin: 0;
-        left: 0;
-        margin-top: 100px;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.699);
-    }
-
-    nav {
-        position: relative;
-        padding: 15px;
-    }
-
-    li a{
-        text-align: center;
-        padding: 0 100px 0;
-        font-size: 20px;
-    }
-
-    
-    .btn{
+    .home-content .btn{
         font-size: 10px;
         padding: 10px 20px;
     }
 
-    .field {
-        padding: 20px 20px;
-        width: 100%;
-        
+
+    .contact-title {
+        text-transform: uppercase;
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.788);
+            
     }
 
-    .footer .logo {
-        font-size: 30px;
+    
+    .field{
+        width: 100%;
+        padding: 20px 20px;
+        margin: 10px auto -70px;;
+        color: #fff;
+        border: 10px solid rgb(235, 235, 235);
+        background-color: rgba(7, 7, 7, 0.808);   
+    }
+
+
+    .footer {
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
     }
 
     td {
@@ -415,18 +489,9 @@ iframe {
     }
 
     nav .logo {
-        display: none;
-    }
-
-    .text {
-        font-size: 20px;
-        padding: 10px;
-        margin: 10px 0;
-      
-    }
-    .about_content .text {
-        font-size: 20px;
-        padding: 0;
-        margin: 30px 0px;
+        position: relative;
+        font-size: 30px;
+        top: 10px;
+        float: left;
     }
 }
