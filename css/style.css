@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* custom container */
 .main-container {
     max-width: 1600px;
     padding: 0 10px;
@@ -11,7 +12,6 @@
 }
 
 /* navbar and styling */
-
 .fa-bars{
   color: #fff;
   font-size: 40px;
@@ -53,7 +53,7 @@ nav .logo span{
 }
 
 
-/* home section styling */
+/* home section styling custom code */
 .home_content h1{
     font-family: 'Merienda', cursive;
     text-transform: uppercase;
@@ -69,25 +69,27 @@ nav .logo span{
     background: url('../images/hero-img.jpg') no-repeat center bottom;
     background-size: cover;
     position: relative;
-    height: 100vh;
-    
+    height: 1000px; 
+      
 }
 
+/* credit: code taken from css trick and edited 
+   slighty to fit projects needs*/
 .bg-contact_image {
     background: url('../images/restaurant-img.jpg') no-repeat center bottom;
     background-size: cover;
     position: relative;
-    height: 100vh;  
+    height: 1000px  
 }
 
+/* hero image */
 .hero-outer {
     overflow: hidden;
-    position: relative;
-    
+    position: relative;  
 }
-/* end of home section styling */
 
-/* button override styling */
+
+/* button override custom styling */
 .home_content .btn{
     margin-top: 60px;
     text-transform: uppercase;
@@ -118,17 +120,16 @@ nav .logo span{
 .about_content img{
     margin-bottom: 50px;
 }
-/* end of about section styling */
 
-
+/* title underline styling */
 hr {
     margin: 0 auto;
     border: rgb(196, 53, 53) solid 3px ;
     border-radius: 10px;
-    width: 100px;
-    
+    width: 100px;   
 }
 
+/* custom column styling */
 .col-xl-6{
     padding: 40px;
     margin-top: 40px;
@@ -151,6 +152,7 @@ hr {
     background-color: rgb(22, 63, 31);
 }
 
+/* chef title header */
 .chef_content h1{
     color: #fff;
     text-transform: uppercase;
@@ -160,13 +162,12 @@ hr {
 .chef_content img{
     margin-bottom: 50px;
 }
-/* end of chef section styling */
+
 
 /* contact form styling */
 .form_field {
     position: absolute;
-    bottom: 1px;
-     
+    bottom: 1px;    
 }
 
 .field{
@@ -199,15 +200,13 @@ label {
 .contact-title {
     font-family: 'Volkhov', serif;
     width: 100%;
-    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.801);
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
     font-size: 35px;
     color: rgb(255, 255, 255);
-
 }
-
 
 /* location styling */
 .title{
@@ -255,11 +254,8 @@ iframe {
     margin-top: 90px;
 }
 
-
-
 /* footer styling */
 .footer {
-    position: relative;
     width: 100%;
     text-align: center;
     background: rgb(17, 17, 17);
@@ -303,33 +299,19 @@ iframe {
     color: rgb(40, 103, 250);
 }
 
-/* media query styling */
-
-@media only screen and (max-width: 1200px) {
-    .main-container {
-        max-width: 1900px;
-        padding: 0 10px;
-        margin: auto;
-    }
-
-    .col-xl{
-        padding: 0 0;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-
-    iframe {
-        margin-top: 20px;
-    }
-    
-}
+/* media query for mobile responsiveness */
 
 /* iPad Screen Size */
 @media only screen and (max-width: 800px) {
     .main-container {
-        max-width: 1900px;
-        padding: 0 20px;
+        max-width: 1600px;
+        padding: 0 10px;
         margin: auto;
+    }
+
+    .home_content h1{
+        background-color: rgba(0, 0, 0, 0.623);
+        font-size: 60px;
     }
 
     .field {
@@ -337,6 +319,10 @@ iframe {
     }
 
     .col-xl-12 {
+        padding: 0;
+    }
+
+    .col-xl-6 {
         padding: 0;
     }
     
@@ -360,10 +346,28 @@ iframe {
     .footer .social{
         align-items: center;
         left: 0;
-        right: 0;
-        
+        right: 0;   
         font-size: 30px;
     }
+
+    .open-hours {
+        width: 100%;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        background-color: rgb(241, 241, 241);
+    }
+    .contact-title {
+        font-family: 'Volkhov', serif;
+        width: 100%;
+        padding: 5px 0;
+        background-color: rgba(0, 0, 0, 0.801);
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+    }
+    
 
 }
 
@@ -372,7 +376,7 @@ iframe {
 @media only screen and (max-width: 500px){
 
     .main-container{
-        max-width: 1600px;
+        max-width: 600px;
         padding: 10px;
         margin: auto;
     }
@@ -436,9 +440,11 @@ iframe {
     
     .open-hours {
         width: 100%;
-        color: #fff;
-        background-color: rgb(34, 42, 53);
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        background-color: rgb(241, 241, 241);
     }
+
    
     .text {
         font-size: 20px;
@@ -458,14 +464,8 @@ iframe {
     }
 
 
-    .contact-title {
-        text-transform: uppercase;
-        font-size: 30px;
-        background-color: rgba(0, 0, 0, 0.788);
-            
-    }
+  
 
-    
     .field{
         width: 100%;
         padding: 20px 20px;
@@ -494,4 +494,100 @@ iframe {
         top: 10px;
         float: left;
     }
+
+    .open-hours h2{
+        text-align: center;
+        font-size: 15px;
+        border: 2px solid rgb(124, 124, 124);
+        font-weight: 800;
+        padding: 10px;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    
+    .open-hours h6{
+        font-weight: 700;
+        font-size: 18px;
+      
+    }
 }
+
+
+/* Moble Screen Size 320px and under */
+@media only screen and (max-width: 360px){
+
+    .main-container{
+        max-width: 320px;
+        padding: 10px;
+        margin: auto;
+    }
+
+   
+    .bg_image {
+        background: url('../images/hero-img.jpg') no-repeat center  ;
+        background-size: cover;
+        position: relative;
+        height: 100vh;
+        bottom: 10px;        
+    }
+
+    .bg-contact_image {
+        background: url('../images/restaurant-img.jpg') no-repeat center bottom;
+        background-size: cover;
+        position: relative;
+        height: 100vh; 
+        
+    }
+
+    .field{
+        width: 100%;
+        padding: 10px 10px;
+        margin: 10px auto -180px;;
+        color: #fff;
+        border: 10px solid rgb(235, 235, 235);
+        background-color: rgba(7, 7, 7, 0.808);   
+    }
+
+    .footer {
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .footer h6{
+        font-size: 11px;
+    }
+
+    .rows{
+        padding: -100px;
+
+    }
+
+    .open-hours h2{
+        text-align: center;
+        font-size: 12px;
+        border: 2px solid rgb(124, 124, 124);
+        font-weight: 800;
+        padding: 10px;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    
+    .open-hours h6{
+        font-weight: 800;
+        font-size: 12px;
+      
+    }
+
+    .table th{
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    .scop td{
+        width: 100%;
+       
+    }
+} 
