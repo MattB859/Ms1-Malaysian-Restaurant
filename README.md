@@ -63,7 +63,21 @@ This is the main marketing website for Mayas house, It is designed to be respons
     - Boostrap was used to assist with the styling and responsiveness of the website.
     1. [Hover.css:](https://www.w3schools.com/cssref/sel_hover.asp) 
     -  Hover.css was used on the navigation bar and on all social media links in the footer to add a floating colour change when hovering over the links.
-    1. [Google Fonts:]    
+    1. [Google Fonts:](https://fonts.google.com/)
+    -  Google fonts were used to import 'Merienda' 'Volkhov' and 'Open Sans' font as a link in the html page header which is used on all pages throughout the website.
+    1. [Font Awesome:](https://fontawesome.com/) 
+    - Font Awesome was used on the location section of the website to add aesthetic and UX purposes.
+    1. [JQuery:](https://jquery.com/)
+    - JQuery came with Bootstrap to toggle the navbar when using mobile and tablet devices.
+    1. [Animate.css](https://animate.style/)
+    -  Animate.css was used to fade in left the home page header. It adds aesthetic and UX purposes.  
+    1. [Git:](https://git-scm.com/)
+    -  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Puch to GitHub.
+    1. [GitHub:](https://github.com/)
+    -  GitHub is used to store project codes after being pushed from the Gitpod terminal.
+    1. [Affinity Designer:](https://affinity.serif.com/en-gb/designer/)
+    -  Affinity Designer was used to create the hero background image for the website.
+    1.    
 
         
 
