@@ -24,7 +24,7 @@
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#navbarToggle" aria-controls="navbarToggleExternalContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="fas fa-bars"></i></span>
+                <span><i class="fas fa-bars"></i></span>
             </button>
             
             <div class="collapse navbar-collapse d-lg-block" id="navbarToggle">         
@@ -48,9 +48,10 @@
                 <div class="col-md-6">
                     <div class="home_content">
                         <h1 class="animate__animated animate__fadeInLeft">taste our malaysian cuisine</h1>
-                        <a href="contact.html"><button type="submit" class="btn btn-lg btn-outline-danger animate__animated animate__fadeInRight"
-                                data-toggle="modal">Book A Table
-                        </button></a>
+
+                        <button type="button" class="btn btn-lg btn-outline-danger animate__animated animate__fadeInRight"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">sign up</button>
+                        
                     </div>
                 </div>
             </div>
@@ -76,13 +77,13 @@
                     </p>
                 </div>
                 <div class="col-xl">
-                    <img src="/images/nasi-kerabu.jpg" width="100%" alt="picture of food in a bole">
+                    <img src="/images/nasi-kerabu.jpg" style="width: 100%;" alt="picture of food">
                 </div>
                 <div class="col-xl">
-                    <img src="/images/roti-tisu.jpg" width="100%" alt="picture of food in a bole">
+                    <img src="/images/roti-tisu.jpg" style="width: 100%;" alt="picture of food">
                 </div>
                 <div class="col-xl">
-                    <img src="/images/satay-img.jpg" width="100%" alt="picture of food in a bole">
+                    <img src="/images/satay-img.jpg" style="width: 100%;" alt="picture of food">
                 </div>
             </div>
         </section>
@@ -107,7 +108,7 @@
                     </p>
                 </div>
                 <div class="col-xl-6">
-                    <img src="/images/chef-2.jpg" width="100%" alt="picture of chefs">
+                    <img src="/images/chef-2.jpg" width="100%" alt="picture of restaurant chefs">
                 </div>
             </div>
         </section>
@@ -191,6 +192,46 @@
     </div>
     <!-- end of location section-->
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword"
+                                placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- start of footer -->
     <footer class="footer">
         <div class="main-container">
@@ -198,6 +239,7 @@
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></a></i>
             </div>
         </div>             
             <h6 class="info"><i class="far fa-copyright"></i> Copyright - All Rights Reserved 2021 </h6>           
