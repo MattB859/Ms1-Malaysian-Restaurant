@@ -35,7 +35,7 @@ li a{
 }
 
 li a:hover{
-    color: rgb(255, 19, 19);
+    color: rgb(184, 184, 184);
 }
 
 nav .logo{
@@ -57,9 +57,10 @@ nav .logo span{
 .home_content h1{
     font-family: 'Merienda', cursive;
     text-transform: uppercase;
+    width: 70%;
     margin-top: 280px;
     font-weight: 800;
-    font-size: 5vw;
+    font-size: 4vw;
     color: rgb(247, 243, 230);
 }
 
@@ -74,7 +75,6 @@ nav .logo span{
 
 /* credit: code taken from css trick and edited 
    slighty to fit projects needs*/
-
 .bg-contact_image {
         background: url('../images/restaurant-img.jpg') no-repeat center bottom;
         background-size: cover;
@@ -640,3 +640,18 @@ iframe {
         margin: 0;
     }
 } 
+
+    .home_content h1{
+    animation: transitionIn 2s;
+    }
+
+    @keyframes transitionIn{
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1; 
+    }
+    
+}
