@@ -70,7 +70,7 @@ This is the main marketing website for Mayas house, It is designed to be respons
     1. [JQuery:](https://jquery.com/)
     - JQuery came with Bootstrap to toggle the navbar when using mobile and tablet devices.
     1. [Animate.css](https://animate.style/)
-    -  Animate.css was used to fade in left the home page header. It adds aesthetic and UX purposes.  
+    -  Animate.css was used to fade in left the home page "text" and the call to action "sign up" button. It adds aesthetic and UX purposes.  
     1. [Git:](https://git-scm.com/)
     -  Git was used for version control by utilizing the Gitpod terminal to commit to Git and Puch to GitHub.
     1. [GitHub:](https://github.com/)
@@ -115,41 +115,115 @@ This is the main marketing website for Mayas house, It is designed to be respons
 
         3. If the user is on the "Contact" page they will also have access to all social media icons in the footer so they never have to feel restricted on any page.
 
--   #### Frequent User Goals
+    -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+    1. As a Frequent User, I want to check to see if there are any newly added pictures in the gallery.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
+        1. The user would already be comfortable with the website layout and can easily navigate with ease.
 
     2. As a Frequent User, I want to check to see if there are any new blog posts.
 
-        1. The user would already be comfortable with the website layout and can easily click the blog link
+        1. The user would already be comfortable with the website layout and can easily click the gallery link.
 
     3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-        1.  At the bottom of every page their is a footer which content is consistent throughout all pages.
+        1.  At the bottom of every page their is a footer which its content is consistent throughout all pages.
+
         2.  To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
+
         3.  There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 -   ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+    -   The Website was tested on Google Chrome, Firefox and Microsoft Edge and Safari browsers.
+    -   The website was viewed on a variety of devices such as Desktop, Laptop, Motorola G4, Galaxy S5/7, Pixel 2, Pixel 2 XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, ipad/Pro.
+    -   A large amount of testing was done to ensure that all pages were linking correctly.
+    -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+-   ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+    -   On some mobile devices a white gap can be seen to the right, this then disappears once other mobile or tablet screen sizes are chosen.
 
-## Deployment
+    -   When the call to action button on the home page is clicked and the modal box appears links in the navbar shake.
 
-### GitHub Pages
+-   ## Deployment
 
-The project was deployed to GitHub Pages using the following steps...    
+-   ### GitHub Pages
+
+    The project was deployed to GitHub Pages using the following steps...    
+
+    
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+    3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+    4. Under "Source", click the dropdown called "None" and select "Master Branch".
+    5. The page will automatically refresh.
+    6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+    ### Forking the GitHub Repository
+
+    By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+    3. You should now have a copy of the original repository in your GitHub account.
+
+    ### Making a Local Clone
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    2. Under the repository name, click "Clone or download".
+    3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    4. Open Git Bash
+    5. Change the current working directory to the location where you want the cloned directory to be made.
+    6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits
+
+### Code
+
+-   The Home Page text Animation came from [Animate.css](https://animate.style/)
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/):   Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 
+### Content
+
+-   All content was written by the developer.
+
+-   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+
+## Credits
+
+### Media
+
+-   Hero Image was created by the developer using affinity designer to crop and edit photo on to background.
+
+- All other Images on the site were taken from [Pexels](https://www.pexels.com/)
+
+    - 1.   
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
         
 
