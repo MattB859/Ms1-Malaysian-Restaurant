@@ -14,17 +14,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-
 <body>
-
-    <!-- start of navigation -->
+    <!-- start of navigation with custom code by developer -->
     <nav>
         <div class="main-container">
             <a class="logo" href="#home"><span>M</span>ayas house</a>
+            <!--navbar toggle button taken from bootstrap -->
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarToggle"
                 aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fas fa-bars"></i></span>
             </button>
+            <!-- end -->
             <div class="collapse navbar-collapse d-lg-block" id="navbarToggle">
                 <ul class="navbar-nav navbar-expand-lg justify-content-end">
                     <li class="nav-item mr-5"><a class="nav-link" href="#home">home</a></li>
@@ -37,29 +37,32 @@
             </div>
         </div>
     </nav>
-    <!-- end of navigation -->
+    <!-- end -->
 
-    <!-- start of home section -->
+    <!-- start of home section custom code by developer
+    with bootstrap -->
     <div class="container-fluid bg_image home_content">
         <section class="main-container" id="home">
             <div class="row">
                 <div class="col-md-6">
                     <div class="home_content">
                         <h1 class="animate__animated animate__fadeInLeft">taste our malaysian cuisine</h1>
-                        <!-- button trigger for modal -->
+                        <!-- button trigger for modal taken from bootstrap examples -->
                         <button type="button"
                             class="btn btn-lg btn-outline-danger animate__animated animate__fadeInRight"
                             data-toggle="modal" data-target="#exampleModal">
                             sign up
                         </button>
+                         <!-- end -->
                     </div>
                 </div>
             </div>
         </section>
     </div>
-    <!-- end of home section -->
+    <!-- end -->
 
-    <!-- start of about section -->
+    <!-- start of about section custom code
+        by developer with bootstrap -->
     <div class="container-fluid about_content">
         <section class="main-container" id="about">
             <h1 class="title">About Mayas</h1>
@@ -88,9 +91,10 @@
             </div>
         </section>
     </div>
-    <!-- end of about section -->
+    <!-- end -->
 
-    <!-- start of chefs Section -->
+    <!-- start of chefs Section custom code
+        by developer with bootstrap -->
     <div class="container-fluid chef_content">
         <section class="main-container" id="chefs">
             <h1 class="title">Chefs</h1>
@@ -113,9 +117,26 @@
             </div>
         </section>
     </div>
-    <!-- end of chefs section -->
+    <!-- end -->
 
-    <!-- start of location section-->
+    <!-- start of testimonial custom code by developer -->
+    <div class="container-fluid">
+        <div class="main-container">
+            <div class="row">
+                <div class="col-xl">
+                    <!-- add image-->
+                </div>
+                <div class="col-xl">
+                    <!-- add image-->
+                </div>
+                <div class="col-xl">
+                    <!-- add image-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start of location section custom code with bootstrap -->
     <div class="container-fluid">
         <section class="main-container" id="location">
             <h1 class="title">Location</h1>
@@ -131,6 +152,8 @@
                             <h6><i class="far fa-envelope"></i> : info@mayashouse.co.ok</h6>
                         </div>
                         <h2>opening hours <i class="fas fa-glass-martini-alt"></i></h2>
+                        <!-- credit: code taken from bootstrap and customized to fit 
+                        the projects needs by developer-->
                         <table class="table table-borderless">
                             <thead class="border-bottom">
                                 <tr>
@@ -191,6 +214,9 @@
                         </table>
                     </div>
                 </div>
+                <!-- credit: iframe code taken from html & css book 
+                    by jon duckett and customized by developer to fit 
+                    the projects needs -->
                 <div class="col-xl-6">
                     <iframe style="width: 100%; height: 500px; border: 0;" loading="lazy"
                         src="https://maps.google.co.uk/maps?q=moma+new+york&amp;output=embed">
@@ -198,9 +224,8 @@
                 </div>
             </div>
         </section>
-
     </div>
-    <!-- end of location section-->
+    <!-- end -->
 
     <!-- modal credit: code taken from bootstrap and 
         code institute mini project tutorial -->
@@ -242,9 +267,9 @@
             </div>
         </div>
     </div>
-    <!-- end of modal section-->
+    <!-- end -->
 
-    <!-- start of footer -->
+    <!-- start of footer custom code by developer -->
     <footer class="footer">
         <div class="main-container">
             <div class="social">
@@ -257,12 +282,11 @@
        </div> 
         <h6 class="info"><i class="far fa-copyright"></i>Copyright - All Rights Reserved 2021</h6>
     </footer>
-    <!-- end of footer -->
+    <!-- end -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
