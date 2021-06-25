@@ -16,27 +16,30 @@
 </head>
 <body>
     <!-- start of navigation with custom code by developer -->
-    <nav>
-        <div class="main-container">
-            <a class="logo" href="#home"><span>M</span>ayas house</a>
-            <!--navbar toggle button taken from bootstrap -->
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarToggle"
-                aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fas fa-bars"></i></span>
-            </button>
-            <!-- end -->
-            <div class="collapse navbar-collapse d-lg-block" id="navbarToggle">
-                <ul class="navbar-nav navbar-expand-lg justify-content-end">
-                    <li class="nav-item mr-5"><a class="nav-link" href="#home">home</a></li>
-                    <li class="nav-item mr-5"><a class="nav-link" href="#about">about</a></li>
-                    <li class="nav-item mr-5"><a class="nav-link" href="#chefs">chefs</a></li>
-                    <li class="nav-item mr-5"><a class="nav-link" href="#testimonial">Testimonial</a></li>
-                    <li class="nav-item mr-5"><a class="nav-link" href="contact.html">contact</a></li>
-                    <li class="nav-item mr-5"><a class="nav-link" href="#location">location</a></li>
-                </ul>
+    <header>
+        <nav>
+            <div class="main-container">
+                <a class="logo" href="#home"><span>M</span>ayas house</a>
+                <!--navbar toggle button taken from bootstrap -->
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+                <!-- end -->
+                <div class="collapse navbar-collapse d-lg-block" id="navbarToggle">
+                    <ul class="navbar-nav navbar-expand-lg justify-content-end">
+                        <li class="nav-item mr-5"><a class="nav-link" href="#home">home</a></li>
+                        <li class="nav-item mr-5"><a class="nav-link" href="#about">about</a></li>
+                        <li class="nav-item mr-5"><a class="nav-link" href="#chefs">chefs</a></li>
+                        <li class="nav-item mr-5"><a class="nav-link" href="#testimonial">Testimonial</a></li>
+                        <li class="nav-item mr-5"><a class="nav-link" href="contact.html">contact</a></li>
+                        <li class="nav-item mr-5"><a class="nav-link" href="#location">location</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!-- end -->
 
     <!-- start of home section custom code by developer
@@ -72,8 +75,8 @@
                 <div class="col-xl-12">
                     <p class="text">
                         We are an authentic malaysian
-                        resturant that prides it self on traditional food
-                        started in 2012 we prepare each meal beautifully
+                        resturant that prides it self on traditional food.
+                        We opened our doors in 2012 and prepare each meal beautifully
                         to bring you the hottest dish in town. We'll whisk
                         your order to your door using groundbreaking delivery tech
                         and 100% eco packaging, which cleverly keeps each dish in
@@ -123,6 +126,8 @@
     <!-- start of testimonial custom code by developer -->
     <div class="container-fluid reviews">
         <section class="main-container" id="testimonial">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
             <h1 class="title">Testimonial</h1>
             <hr class="heaing_line">
             <br>
@@ -142,7 +147,6 @@
                     </figure>
                     <p><q>I love this place great food and great service</q></p>
                 </div>
-
                 <div class="col-lg">
                     <figure>
                         <img src="./images/girl-image.png" class="reviews-content" alt="picture of a woman">
@@ -154,11 +158,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </figcaption>
-
                     </figure>
                     <p><q>Amazing food and 10/10 service</q></p>
                 </div>
-
                 <div class="col-lg">
                     <figure>
                         <img src="./images/nicholas-swatz.jpg" class="reviews-content" alt="picture of a man">
@@ -281,7 +283,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Sign Up To Mayas House</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">join our newsletter</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -289,28 +291,22 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
+                            <label for="fname">Name</label>
+                            <input type="email" class="form-control" id="fname"
+                                aria-describedby="nameHelp" placeholder="First name">
+                            <small id="nameHelp" class="form-text text-muted"></small>                           
+                        </div>                       
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email Address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword"
-                                placeholder="Repeat Password">
-                        </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        </div> 
+                        <button type="submit" class="btn btn-success">Subscrib Now!</button>                     
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+               
             </div>
         </div>
     </div>
