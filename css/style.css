@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* custom container */
+/* custom code by developer */
 .main-container {
     max-width: 1600px;
     padding: 0 10px;
@@ -17,6 +17,8 @@
   font-size: 40px;
  
 }
+
+/* custom code by developer */
 nav{
     width: 100%;
     position: fixed;
@@ -27,6 +29,7 @@ nav{
     z-index: 1;    
 }
 
+/* custom code by developer */
 li a{ 
     text-transform: uppercase;
     font-family: Arial;
@@ -34,10 +37,11 @@ li a{
     font-size: 14px;
 }
 
+/* custom code by developer */
 li a:hover{
     color: rgb(184, 184, 184);
 }
-
+/* custom code by developer */
 nav .logo{
     font-family: 'Parisienne', cursive;
     font-weight: 600;
@@ -101,7 +105,7 @@ nav .logo span{
 }
 
 
-/* about section styling */
+/* about section styling custom code by developer */
 .about_content {
     height: 100%;
     font-family: Arial;
@@ -125,7 +129,7 @@ nav .logo span{
 /* title underline styling */
 hr {
     margin: 0 auto;
-    border: rgb(196, 53, 53) solid 3px ;
+    border: rgb(196, 53, 53) solid 3px;
     border-radius: 10px;
     width: 100px;   
 }
@@ -163,7 +167,7 @@ hr {
     font-size: 22px;
 }
 
-/* reviews styling */
+/* testimonial styling */
 .reviews{
     height: 100%;
     padding-bottom: 50px;
@@ -174,26 +178,33 @@ hr {
 .reviews-content { 
     width: 250px;
     height: 250px;
+    padding: 5px;
+    box-shadow: 4px 10px 20px;
+    border: 3px solid rgba(20, 20, 20, 0);
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .reviews{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 .name{
-    margin-top: 10px;
+    margin-top: 20px;
     font-style: italic;
-    color: rgb(100, 100, 100);
+    color: rgb(82, 82, 82);
     font-weight: 500;
 }
 
-.fa-star{
-    margin-top: 20px;
-    color: rgb(236, 107, 1);
+.grey-star{
+    margin: 10px 0;
+    color: rgb(100, 100, 100);
 }
 
+.fa-star{
+    margin: 10px 0;
+    color: rgb(236, 107, 1);
+}
 /* contact form styling */
 .field{
     margin: 20px auto ;
@@ -275,13 +286,24 @@ iframe {
     margin-top: 90px;
 }
 
-/* footer styling */
+/* button lets you go back to the home page */
+.up-button {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+}
 
 .fa-chevron-up{
-    float: right;
-    font-size: 30px;
-
+    color: #000;
+    cursor: pointer;
 }
+
+.fa-chevron-up:hover{
+    color: red;
+}
+
+/* footer styling */
 
 .footer {
     width: 100%;
@@ -335,7 +357,7 @@ iframe {
 }
 
 
-/* media query for ipad responsive screen size */
+/* media query for ipad screen size */
 @media only screen and (max-width: 800px) {
 
     .main-container {
@@ -572,7 +594,7 @@ iframe {
     }
 }
 
-/* Moble Screen Size 320px and under */
+/* Moble Screen Size 375px and under */
 @media only screen and (max-width: 375px){
 
     .main-container{
@@ -636,7 +658,14 @@ iframe {
     .footer h6{
         font-size: 11px;
     }
-
+    
+    .open-hours {
+        width: 100%;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        background-color: rgb(241, 241, 241);
+    }
+    
     .open-hours h2{
         text-align: center;
         font-size: 12px;
@@ -652,11 +681,6 @@ iframe {
         font-size: 12px;
     }
 
-    .open-hours {
-        padding: 10px;
-        margin-top: 10px;;
-    }
-
     
     .table th{
         width: 100%;
@@ -667,13 +691,15 @@ iframe {
         width: 100%;
        
     }
-
-    .table-data td{
-        font-size: 10px;
-    }
-
     .col-xl-6{
         margin: 0;
     }
 } 
 
+/* small screens */
+@media only screen and (max-width: 320px){
+    .table-data td{
+        font-size: 8px;
+    }
+
+}
