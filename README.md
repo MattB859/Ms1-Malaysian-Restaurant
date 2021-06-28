@@ -2,7 +2,9 @@
 
 This is the main marketing website for Mayas house, It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and exsisting visitors.
 
-[visit website here]
+[visit website here](https://mattb859.github.io/Ms1-Malaysian-Restaurant/index.html)
+
+<img src="./assets/images/mayas-house-image.png">
 
 ## User Experience (UX)
 
