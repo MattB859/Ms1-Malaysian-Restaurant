@@ -4,21 +4,19 @@
     box-sizing: border-box;
 }
 
-/* custom code by developer */
 .main-container {
     max-width: 1600px;
     padding: 0 10px;
     margin: 0 auto;
 }
 
-/* navbar and styling */
+/* navbar styling custom code */
 .fa-bars{
   color: #fff;
   font-size: 40px;
  
 }
 
-/* custom code by developer */
 nav{
     width: 100%;
     position: fixed;
@@ -29,7 +27,6 @@ nav{
     z-index: 1;    
 }
 
-/* custom code by developer */
 li a{ 
     text-transform: uppercase;
     font-family: Arial;
@@ -37,11 +34,10 @@ li a{
     font-size: 14px;
 }
 
-/* custom code by developer */
 li a:hover{
     color: rgb(184, 184, 184);
 }
-/* custom code by developer */
+
 nav .logo{
     font-family: 'Parisienne', cursive;
     font-weight: 600;
@@ -56,15 +52,14 @@ nav .logo span{
     color: rgb(221, 44, 80);
 }
 
-
 /* home section styling custom code */
 .home_content h1{
     font-family: 'Merienda', cursive;
     text-transform: uppercase;
-    width: 70%;
+    width: 90%;
     margin-top: 280px;
     font-weight: 800;
-    font-size: 4vw;
+    font-size: 80px;
     color: rgb(247, 243, 230);
 }
 
@@ -80,18 +75,17 @@ nav .logo span{
 /* credit: code taken from css trick and edited 
    slighty to fit projects needs*/
 .bg-contact_image {
-        background: url('../assets/images/restaurant-img.jpg') no-repeat center bottom;
-        background-size: cover;
-        position: relative;
-        height: 100vh;      
-    }
+    background: url('../assets/images/restaurant-img.jpg') no-repeat center bottom;
+    background-size: cover;
+    position: relative;
+    height: 100vh;      
+}
 
 /* hero image */
 .hero-outer {
     overflow: hidden;
     position: relative;  
 }
-
 
 /* button override custom styling */
 .home_content .btn{
@@ -100,10 +94,16 @@ nav .logo span{
     font-size: 22px;
     font-weight: 600;
     padding: 20px 40px;
-    border: 3px solid rgb(196, 53, 53);
+    border: none;
+    background-color: crimson;
     color: #fff;
+    transition: 0.4s;
 }
 
+.home_content .btn:hover{
+    background-color: rgb(230, 229, 229);
+    color: rgb(0, 0, 0);
+}
 
 /* about section styling custom code by developer */
 .about_content {
@@ -155,7 +155,7 @@ hr {
     margin-top: 40px;
 }
 
-/* chef section styling */
+/* chef section styling custom code */
 .chef_content {
     height: 100%;
     font-family: Arial;
@@ -182,8 +182,7 @@ hr {
     font-size: 22px;
 }
 
-/* testimonial styling */
-
+/* testimonial styling custom code */
 .fa-quote-left{
     position: relative;
     top: 100px;
@@ -202,7 +201,7 @@ hr {
     height: 100%;
     padding-bottom: 50px;
     text-align: center;
-    background-color: rgb(237, 253, 224);
+    background-color: rgb(239, 247, 233);
 }
 
 .reviews-content { 
@@ -268,7 +267,7 @@ label {
     color: rgb(255, 255, 255);
 }
 
-/* location styling */
+/* location styling custom code */
 .title{
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
@@ -333,8 +332,7 @@ iframe {
     color: red;
 }
 
-/* footer styling */
-
+/* footer styling custom code */
 .footer {
     width: 100%;
     text-align: center;
@@ -344,7 +342,6 @@ iframe {
     color: rgb(255, 255, 255);
     padding: 30px;
 }
-
 
 .footer h6{
     margin-top: 40px;
@@ -401,7 +398,7 @@ iframe {
         background-size: cover;
         position: relative;
         height: 100vh;
-        bottom: 10px;        
+        bottom: 10px;       
     }
 
     .bg-contact_image {
@@ -411,10 +408,16 @@ iframe {
         height: 100vh;     
     }
 
-
     .home_content h1{
         background-color: rgba(0, 0, 0, 0.623);
-        font-size: 60px;
+        font-size: 80px;
+        width: 470px;
+        z-index: 1000;
+        margin-top: 200px;
+    }
+
+    .home_content .btn{
+        background-color: crimson;
     }
 
     .field {
@@ -494,8 +497,7 @@ iframe {
         background: url('../assets/images/restaurant-img.jpg') no-repeat center bottom;
         background-size: cover;
         position: relative;
-        height: 100vh; 
-        
+        height: 100vh;        
     }
 
     .home_content h1{
