@@ -35,7 +35,8 @@ li a{
 }
 
 li a:hover{
-    color: rgb(184, 184, 184);
+    color: rgb(255, 157, 157);
+    
 }
 
 nav .logo{
@@ -367,7 +368,7 @@ iframe {
 
     .main-container {
         max-width: 1600px;
-        padding: 0 10px;
+        padding: 0 30px;
         margin: auto;
     }
 
@@ -381,6 +382,14 @@ iframe {
         font-weight: 700;
         background-color: rgb(241, 241, 241);
     }
+
+    .home_content h1{
+        background-color: rgba(0, 0, 0, 0.623);
+        font-size: 80px;
+        width: 470px;
+        z-index: 1000;
+        margin-top: 200px;
+    }
 }
 
 
@@ -389,7 +398,7 @@ iframe {
 
     .main-container {
         max-width: 1200px;
-        padding: 0 10px;
+        padding: 0 30px;
         margin: auto;
     }
 
@@ -504,7 +513,7 @@ iframe {
         font-size: 45px;
         padding: 30px 20px;
         margin-top: 100px;
-        width: 100%;
+        width: 70%;
         background-color: rgba(0, 0, 0, 0.699);
     }
 
@@ -627,7 +636,7 @@ iframe {
 }
 
 /* Moble Screen Size 375px and under */
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 420px){
 
     .main-container{
         max-width: 500px;
@@ -664,8 +673,9 @@ iframe {
     .home_content h1{
         font-family: 'Merienda', cursive;
         text-transform: uppercase;
-        margin-top: 50px;
+        margin-top: 100px;
         font-weight: 800;
+        width: 280px;
         font-size: 40px;
         color: rgb(247, 243, 230);
     }
@@ -730,8 +740,24 @@ iframe {
 
 /* small screens */
 @media only screen and (max-width: 320px){
+
+    .main-container{
+        max-width: 500px;
+        padding: 0 10px;
+        margin: auto;
+    }
+
     .table-data td{
         font-size: 8px;
+    }
+
+    .home_content h1{
+        font-size: 45px;
+        padding: 30px 20px;
+        margin-top: 100px;
+        width: 80%;
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.699);
     }
 
 }
