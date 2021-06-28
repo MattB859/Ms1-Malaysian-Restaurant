@@ -44,8 +44,8 @@
 
     <!-- start of home section custom code by developer
     with bootstrap -->
-    <div class="container-fluid bg_image home_content">
-        <section class="main-container" id="home">
+    <section class="container-fluid bg_image home_content" id="home">
+        <div class="main-container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="home_content">
@@ -61,14 +61,16 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>    
+    </section>
+    
     <!-- end -->
 
     <!-- start of about section custom code
         by developer with bootstrap -->
-    <div class="container-fluid about_content">
-        <section class="main-container" id="about">
+
+    <section class="container-fluid about_content" id="about">
+        <div class="main-container">
             <h1 class="title">About Mayas</h1>
             <hr class="heading_line">
             <div class="row">
@@ -84,23 +86,35 @@
                     </p>
                 </div>
                 <div class="col-xl">
-                    <img src="./images/nasi-kerabu.jpg" style="width: 100%;" alt="picture of food">
+                    <figure>
+                        <img src="./images/nasi-kerabu.jpg" style="width: 100%;" alt="picture of food">
+                    </figure>
+                    <figcaption class="caption-text">Nasi kerabu</figcaption>
+                </div>
+
+                <div class="col-xl">
+                    <figure>
+                        <img src="./images/roti-tisu.jpg" style="width: 100%;" alt="picture of food">
+                    </figure>
+                    <figcaption class="caption-text">Roti Tisu</figcaption>
                 </div>
                 <div class="col-xl">
-                    <img src="./images/roti-tisu.jpg" style="width: 100%;" alt="picture of food">
-                </div>
-                <div class="col-xl">
-                    <img src="./images/satay-img.jpg" style="width: 100%;" alt="picture of food">
+                    <figure>
+                        <img src="./images/satay-img.jpg" style="width: 100%;" alt="picture of food">
+                    </figure>
+                    <figcaption class="caption-text">Satay</figcaption>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+
+    
     <!-- end -->
 
     <!-- start of chefs Section custom code
         by developer with bootstrap -->
-    <div class="container-fluid chef_content">
-        <section class="main-container" id="chefs">
+    <section class="container-fluid chef_content" id="chefs">
+        <div class="main-container">
             <h1 class="title">Chefs</h1>
             <hr class="heading_line">
             <div class="row">
@@ -119,13 +133,14 @@
                     <img src="./images/chef-2.jpg" style="width: 100%;" alt="picture of restaurant chefs">
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
+   
     <!-- end -->
 
     <!-- start of testimonial custom code by developer -->
-    <div class="container-fluid reviews">
-        <section class="main-container" id="testimonial">
+    <section class="container-fluid reviews" id="testimonial">
+        <div class="main-container">
             <i class="fas fa-quote-left"></i>
             <i class="fas fa-quote-right"></i>
             <h1 class="title">Testimonial</h1>
@@ -176,12 +191,12 @@
                     <p><q>Staff were friendly food was amazing service ok</q></p>
                 </div>
             </div>
-        </section>
-    </div>
-
+        </div>
+    </section>
+    
     <!-- start of location section custom code with bootstrap -->
-    <div class="container-fluid">
-        <section class="main-container" id="location">
+    <section class="container-fluid" id="location">
+        <div class="main-container">
             <h1 class="title">Location</h1>
             <hr>
             <div class="row">
@@ -255,7 +270,7 @@
                                 <td>Closed</td>
                             </tr>
                         </table>
-                    </div>  
+                    </div>
                 </div>
                 <!-- credit: iframe code taken from html & css book 
                     by jon duckett and customized by developer to fit 
@@ -266,8 +281,8 @@
                     </iframe>
                 </div>
             </div>
-        </section>    
-    </div>
+        </div>
+    </section>
     <!-- end -->
 
     <div class="main-container">
