@@ -397,7 +397,7 @@ iframe {
     }
 
     .bg_image {
-        background: url('/assets/images/hero-img.jpg') no-repeat center;
+        background: url('../assets/images/hero-img.jpg') no-repeat center;
         background-size: cover;
         position: relative;
         height: 100vh;
@@ -405,7 +405,7 @@ iframe {
     }
 
     .bg-contact_image {
-        background: url('/assets/images/restaurant-img.jpg') no-repeat center bottom;
+        background: url('../assets/images/restaurant-img.jpg') no-repeat center bottom;
         background-size: cover;
         position: relative;
         height: 100vh;     
@@ -483,7 +483,7 @@ iframe {
     }
 
     .bg_image {
-        background: url('/assets/images/hero-img.jpg') no-repeat center  ;
+        background: url('../assets/images/hero-img.jpg') no-repeat center  ;
         background-size: cover;
         position: relative;
         height: 100vh;
@@ -491,7 +491,7 @@ iframe {
     }
 
     .bg-contact_image {
-        background: url('/assets/images/restaurant-img.jpg') no-repeat center bottom;
+        background: url('../assets/images/restaurant-img.jpg') no-repeat center bottom;
         background-size: cover;
         position: relative;
         height: 100vh; 
@@ -635,7 +635,7 @@ iframe {
 
    
     .bg_image {
-        background: url('/assets/images/hero-img.jpg') no-repeat center  ;
+        background: url('../assets/images/hero-img.jpg') no-repeat center  ;
         background-size: cover;
         position: relative;
         height: 100vh;
@@ -643,7 +643,7 @@ iframe {
     }
 
     .bg-contact_image {
-        background: url('/assets/images/restaurant-img.jpg') no-repeat center bottom;
+        background: url('../assets/images/restaurant-img.jpg') no-repeat center bottom;
         background-size: cover;
         position: relative;
         height: 100vh;   
