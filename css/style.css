@@ -71,7 +71,7 @@ nav .logo span{
 /* credit: code taken from css trick and edited 
    slighty to fit projects needs*/
 .bg_image {
-    background: url('../images/hero-img.jpg') no-repeat center bottom;
+    background: url('/assets/images/hero-img.jpg') no-repeat center bottom;
     background-size: cover;
     position: relative;
     height: 1000px;    
@@ -80,7 +80,7 @@ nav .logo span{
 /* credit: code taken from css trick and edited 
    slighty to fit projects needs*/
 .bg-contact_image {
-        background: url('../images/restaurant-img.jpg') no-repeat center bottom;
+        background: url('/assets/images/restaurant-img.jpg') no-repeat center bottom;
         background-size: cover;
         position: relative;
         height: 100vh;      
@@ -123,7 +123,17 @@ nav .logo span{
 }
 
 .about_content img{
-    margin-bottom: 50px;
+    margin-bottom: 0;
+}
+
+.caption-text{
+    text-align: center;
+    font-family: Arial, Helvetica;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* title underline styling */
@@ -132,6 +142,11 @@ hr {
     border: rgb(196, 53, 53) solid 3px;
     border-radius: 10px;
     width: 100px;   
+}
+
+.modal-title{
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 /* custom column styling */
@@ -168,6 +183,21 @@ hr {
 }
 
 /* testimonial styling */
+
+.fa-quote-left{
+    position: relative;
+    top: 100px;
+    font-size: 30px;
+    float: left;
+}
+
+.fa-quote-right{
+    position: relative;
+    font-size: 30px;
+    top: 100px;
+    float: right;
+}
+
 .reviews{
     height: 100%;
     padding-bottom: 50px;
@@ -367,7 +397,7 @@ iframe {
     }
 
     .bg_image {
-        background: url('../images/hero-img.jpg') no-repeat center;
+        background: url('/assets/images/hero-img.jpg') no-repeat center;
         background-size: cover;
         position: relative;
         height: 100vh;
@@ -375,7 +405,7 @@ iframe {
     }
 
     .bg-contact_image {
-        background: url('../images/restaurant-img.jpg') no-repeat center bottom;
+        background: url('/assets/images/restaurant-img.jpg') no-repeat center bottom;
         background-size: cover;
         position: relative;
         height: 100vh;     
@@ -453,7 +483,7 @@ iframe {
     }
 
     .bg_image {
-        background: url('../images/hero-img.jpg') no-repeat center  ;
+        background: url('/assets/images/hero-img.jpg') no-repeat center  ;
         background-size: cover;
         position: relative;
         height: 100vh;
@@ -461,7 +491,7 @@ iframe {
     }
 
     .bg-contact_image {
-        background: url('../images/restaurant-img.jpg') no-repeat center bottom;
+        background: url('/assets/images/restaurant-img.jpg') no-repeat center bottom;
         background-size: cover;
         position: relative;
         height: 100vh; 
@@ -605,7 +635,7 @@ iframe {
 
    
     .bg_image {
-        background: url('../images/hero-img.jpg') no-repeat center  ;
+        background: url('/assets/images/hero-img.jpg') no-repeat center  ;
         background-size: cover;
         position: relative;
         height: 100vh;
@@ -613,7 +643,7 @@ iframe {
     }
 
     .bg-contact_image {
-        background: url('../images/restaurant-img.jpg') no-repeat center bottom;
+        background: url('/assets/images/restaurant-img.jpg') no-repeat center bottom;
         background-size: cover;
         position: relative;
         height: 100vh;   
