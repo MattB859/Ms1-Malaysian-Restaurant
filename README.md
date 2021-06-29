@@ -197,11 +197,11 @@ This is the main website for Mayas house restaurant. It is designed to be respon
         <img src="assets/images/css-validator-img.png"> 
         </p>
         
-    -   ###  All pages came back with no errors. 
+    -   ###  All pages came back with no errors.
 
--   ###  Testing User Stories from User Experience (UX) Section
+## Testing User Stories from User Experience (UX) Section
 
-    -   ### First Time Visitor Goals
+-   ### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the restaurant.
 
@@ -245,21 +245,27 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
         3.  There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
+## Debugging
+
+-   ### Chrome Developer Tools
+
+    -  Chrome Dev Tools was used for inspection of HTML, and CSS. It helped to diagnose problems, and debug issues right in the browers.
+
 -   ### Further Testing
 
-    -   The Website was tested on Google Chrome, Firefox and Microsoft Edge and Safari browsers.
+    -   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
 
     -   The website was viewed on a variety of devices such as 
         1. Desktop 
-        2. Laptop 
-        3. Motorola G4 
-        4. Galaxy S5/7
-        5. Pixel 2
-        6.  Pixel 2 XL 
-        7. iPhone 5/SE 
-        8. iPhone 6/7/8/Plus 
-        9. iPhone X, 
-        10. ipad/Pro.
+        1. Laptop 
+        1. Motorola G4 
+        1. Galaxy S5/7
+        1. Pixel 2
+        1. Pixel 2 XL 
+        1. iPhone 5/SE 
+        1. iPhone 6/7/8/Plus 
+        1. iPhone X, 
+        1. ipad/Pro.
 
     -   A large amount of testing was done to ensure that all pages were linking correctly.
 
