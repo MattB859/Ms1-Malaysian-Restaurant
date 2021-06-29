@@ -313,7 +313,23 @@ label {
 }
 
 iframe {
+    border-style: none;
     margin-top: 90px;
+    height: 800px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 629px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 629px;
+    width: 100%;
 }
 
 /* button lets you go back to the home page */
