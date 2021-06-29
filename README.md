@@ -54,8 +54,10 @@ This is the main website for Mayas house restaurant. It is designed to be respon
     -   ### About Us
 
         1. Here users will find information about our restaurant's history, core values, beliefs and the services we provide for each of our diners.
-
-        <img align="center" src="./assets/images/about-us.png">
+        
+        <p align="center">
+        <img src="./assets/images/about-us.png">
+        </p>
 
     -   ### Our Chefs
 
@@ -67,13 +69,17 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
         4. The backgrounds colour is an earthy green which represents health and nature.
 
-        <img align="center" src="./assets/images/chefs-section.png"> 
+        <p align="center">
+        <img src="./assets/images/chefs-section.png"> 
+        </p>
 
     -   ### Testimonials
 
         1. Here visitors can find reviews from our satisfied diners and the experience they have had while eating at our restaurant.
 
-        <img align="center" src="./assets/images/testimonials-section.png">
+        <p align="center">
+        <img src="./assets/images/testimonials-section.png">
+        </p>
 
     -   ###   Mobile View
 
@@ -93,11 +99,12 @@ This is the main website for Mayas house restaurant. It is designed to be respon
     
     -   ### Find Us
 
-        1.  Here visitors can find the opening hours of the restaurant and a
+        1. Here visitors can find the opening hours of the restaurant and a
         location.
-
+        
+        <p align="center">
         <img src="assets/images/location-find-us.png">
-
+        </p>
 
     -   ### Footer
         
