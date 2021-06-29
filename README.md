@@ -25,7 +25,7 @@ This is the main website for Mayas house restaurant, It is designed to be respon
         3. As a Returning Visitor, I want to find information on how to locate the restaurant. 
 
 
-        ### Frequent User Goals
+    -   ### Frequent User Goals
 
         1. As a Frequent User, I want to sign up to the Newsletter so that i am emailed any major updates and/or changes to the website.
         2. As a Frequent User, I want to see if there are any updated information.
@@ -33,17 +33,52 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
 -   ### Website Design 
 
-    -   #### Home Page
+    -   ### Home Page
 
-        -    For the home page Imagery is very important. The large background hero image is designed to capture the visitor's attention with its beautiful presentation of the foods served in the restaurant.
+        1. For the home page Imagery is very important. The large background hero image is designed to capture the visitor's attention with its beautiful presentation of the foods served in the restaurant.
 
-        -    On the left of the image is some text which gives a warm inviting message.
+        2. On the left of the image is some text which gives a warm inviting message.
 
         <img align="center" src="./assets/images/home-page.png">
 
-    -   #### Navigation bar
+    -   ### Navigation bar
 
-        -    When entering the website, users are instantly greeted with a clean and easy to read navigation bar to go to the page of their choice.   
+        1. When entering the website, users are instantly greeted with a clean and easy to read navigation bar to go to the page of their choice.
+
+        <img align="center" src="./assets/images/navbar.jpg"> 
+
+        2. For mobile and tablet view there is a hamburger icon which will collapes once clicked on to display the navbar menu.
+
+    -   ### About Us
+
+        1. Here users will find information about our restaurant's history, core values, beliefs and the services we provide for each of our diners.
+
+        <img align="center" src="./assets/images/about-us.png">
+
+    -   ### Our Chefs
+
+        1. Visitors can find information about our trained professional Chefs. It is important to know who will be preparing your food and the level of expertise they have this builds trust with our diners.
+
+        2. On the right you will find a image of our chefs.
+
+        3. To the left you can find information about our chefs.
+
+        4. The backgrounds colour is a earthy green which represents health and nature.
+
+        <img align="center" src="./assets/images/chefs-section.png"> 
+
+    -   ### Testimonials
+
+        1. Here visitors can find reviews from our satisfied diners and the experience they have had while eating at our restaurant.
+
+        <img align="center" src="./assets/images/testimonials-section.png">
+
+        2. For mobile and tablet views.
+
+        <p align="center">
+        <img width="250" height="500" src="./assets/images/mobile-reviews.png">
+        </p>
+
 
     -   #### Colour Scheme
         -    The three main colours used for the site are red, white, and green.
