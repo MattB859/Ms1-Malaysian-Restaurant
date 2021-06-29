@@ -1,6 +1,6 @@
 <h1 align="center">Mayas House Restaurant Website</h1>
 
-This is the main website for Mayas house restaurant, It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and exsisting visitors.
+This is the main website for Mayas house restaurant. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
 
 [visit website here](https://mattb859.github.io/Ms1-Malaysian-Restaurant/index.html)
 
@@ -20,14 +20,14 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
     -   ### Returning Visitor Goals 
 
-        1. As a Returning Visitor, I want to find the best way to get in contact with the resaturant for any questions I may have. 
-        2. As a Returning Visitor, I want to see if there are any new updated information that i may find usful.
+        1. As a Returning Visitor, I want to find the best way to get in contact with the restaurant for any questions I may have. 
+        2. As a Returning Visitor, I want to see if there are any new updated information that i may find useful.
         3. As a Returning Visitor, I want to find information on how to locate the restaurant. 
 
 
     -   ### Frequent User Goals
 
-        1. As a Frequent User, I want to sign up to the Newsletter so that i am emailed any major updates and/or changes to the website.
+        1. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website.
         2. As a Frequent User, I want to see if there are any updated information.
         3. As a Frequent User, I want to see if there are any new added pictures. 
 
@@ -35,7 +35,7 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
     -   ### Home Page
 
-        1. For the home page Imagery is very important. The large background hero image is designed to capture the visitor's attention with its beautiful presentation of the foods served in the restaurant.
+        1. For the home page Imagery is very important. The large background hero image is designed to capture the visitor's attention with its beautiful presentation of the food served in the restaurant.
 
         2. On the left of the image is some text which gives a warm inviting message.
 
@@ -47,7 +47,7 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
         1. When entering the website, users are instantly greeted with a clean and easy to read navigation bar to go to the page of their choice.
 
-        2. For mobile and tablet view there is a hamburger icon which will collapes once clicked on to display the navbar menu.
+        2. For mobile and tablet view there is a hamburger icon which will collapses once clicked on to display the navbar menu.
 
         <img align="center" src="./assets/images/navbar.jpg"> 
 
@@ -59,9 +59,9 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
     -   ### Our Chefs
 
-        1. Visitors can find information about our trained professional Chefs. It is important to know who will be preparing your food and the level of expertise they have this builds trust with our diners.
+        1. Visitors can find information about our trained professional Chefs. It is important to know who will be preparing your food and the level of expertise they have, this builds trust with our diners.
 
-        2. On the right you will find a image of our chefs.
+        2. On the right you will find an image of our chefs.
 
         3. To the left you can find information about our chefs.
 
@@ -101,7 +101,7 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
     -   ### Footer
         
-        1. On the footer of the website the user can find all our social media links, when clicked a seprate page will open up where users can follow us.
+        1. On the footer of the website the user can find all our social media links, when clicked a separate page will open up where users can follow us.
         
         <p align="center">
         <img src="assets/images/footer.png">
@@ -148,7 +148,7 @@ This is the main website for Mayas house restaurant, It is designed to be respon
     ### Frameworks, Libraries & Programs Used
 
     1. [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/download/) 
-    - Boostrap was used to assist with the styling and responsiveness of the website.
+    - Bootstrap was used to assist with the styling and responsiveness of the website.
     1. [Hover.css:](https://www.w3schools.com/cssref/sel_hover.asp) 
     -  Hover.css was used on the navigation bar and on all social media links in the footer to add a floating colour change when hovering over the links.
     1. [Google Fonts:](https://fonts.google.com/)
@@ -181,7 +181,7 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the restaurant.
 
-        1. When entering the website, users are instantly greeted with a clean and easy to read navigation bar to go to the page of their choice. Underneath there is a Hero Image with text and a "Sign Up" call to action button which opens a "modal" for visitors to sign up using a email address and password.
+        1. When entering the website, users are instantly greeted with a clean and easy to read navigation bar to go to the page of their choice. Underneath there is a Hero Image with text and a "Sign Up" call to action button which opens a "modal" for visitors to sign up using an email address and password.
 
         2. The Hero Image and text immediately lets visitors know what the website is all about.
 
@@ -211,9 +211,9 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
     2. As a Frequent User, I want to check to see if there are any new updates.
 
-        1. The user would already be comfortable with the website's layout and can easily click any link0
+        1. The user would already be comfortable with the website's layout and can easily click any link
 
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+    3. As a Frequent User, I want to sign up to the Newsletter so that I am kept informed about any major updates and/or changes to the website or organisation.
 
         1.  At the bottom of every page their is a footer which its content is consistent throughout all pages.
 
