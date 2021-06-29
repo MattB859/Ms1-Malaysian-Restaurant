@@ -39,15 +39,17 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
         2. On the left of the image is some text which gives a warm inviting message.
 
+        3. Below the main text there is a call to action button when clicked opens a modal box which allows new customers to sign up to the website's newsletter.
+       
         <img align="center" src="./assets/images/home-page.png">
 
     -   ### Navigation bar
 
         1. When entering the website, users are instantly greeted with a clean and easy to read navigation bar to go to the page of their choice.
 
-        <img align="center" src="./assets/images/navbar.jpg"> 
-
         2. For mobile and tablet view there is a hamburger icon which will collapes once clicked on to display the navbar menu.
+
+        <img align="center" src="./assets/images/navbar.jpg"> 
 
     -   ### About Us
 
@@ -63,7 +65,7 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
         3. To the left you can find information about our chefs.
 
-        4. The backgrounds colour is a earthy green which represents health and nature.
+        4. The backgrounds colour is an earthy green which represents health and nature.
 
         <img align="center" src="./assets/images/chefs-section.png"> 
 
@@ -73,33 +75,72 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
         <img align="center" src="./assets/images/testimonials-section.png">
 
-        2. For mobile and tablet views.
+    -   ###   Mobile View
+
+        2. This is the layout for mobile and tablet devices when displayed vertically.
 
         <p align="center">
         <img width="250" height="500" src="./assets/images/mobile-reviews.png">
         </p>
 
+    -   ### Contact Us
 
-    -   #### Colour Scheme
-        -    The three main colours used for the site are red, white, and green.
-    -   #### Typography
+        1. This is the contact section it opens up in a completely separate page.
+
+        <p align="center">
+        <img src="assets/images/contact.png"> 
+        </p>   
+    
+    -   ### Find Us
+
+        1.  Here visitors can find the opening hours of the restaurant and a
+        location.
+
+        <img src="assets/images/location-find-us.png">
+
+
+    -   ### Footer
+        
+        1. On the footer of the website the user can find all our social media links, when clicked a seprate page will open up where users can follow us.
+        
+        <p align="center">
+        <img src="assets/images/footer.png">
+        </p> 
+
+
+    -   ### Colour Scheme
+        -    The main colours used for the site are Crimson, white, Black, and Dark Green.
+
+    -   ### Typography
         -    The Merienda font is used for the main home page header it adds an authentic feel to the website with Sans Serif for the rest of the websites font.
     
-    *   ### Wireframes
+    -   ### Wireframes
 
-    -   Home Page Wireframe - [View]
-        Mobile Wireframe - [View] 
-        Contact Us Wireframe - [View] 
+    -   Home Page Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/r0742)
+    -   Mobile Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/r2278)
+    -   Tablet Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/rCA01) 
 
-    ##  Features
+-   ## Features
 
-    -   Responsive on all device sizes
+    -   ### Current Features
 
-    -   Interative elements
+        1. This is a two page website with 5 sections for the first page and a contact section for the second page.
 
-    ##  Technologies Used
+        2. All pages are fully responsive on all devices.
 
-    ### Languages Used
+    -   ###  Future Features
+
+        1. To add an online booking system that allows customers to book a table reservation.
+
+        2. To add a photo gallery carousel.
+
+        3. To add a food and drinks menu page.    
+
+
+
+## Technologies Used
+
+-   ### Languages Used
 
     -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
     -   [CSS3](https://en.wikipedia.org/wiki/CSS)
@@ -164,13 +205,13 @@ This is the main website for Mayas house restaurant, It is designed to be respon
 
     -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added pictures in the gallery.
+    1. As a Frequent User, I want to check to see if there are any newly added pictures.
 
         1. The user would already be comfortable with the website layout and can easily navigate with ease.
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
+    2. As a Frequent User, I want to check to see if there are any new updates.
 
-        1. The user would already be comfortable with the website layout and can easily click the gallery link.
+        1. The user would already be comfortable with the website's layout and can easily click any link0
 
     3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
@@ -255,21 +296,25 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   Psychological properties of colours text in the README.md was found - [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
-## Credits
+-  w3schools was used as a general source of knowledge.
+
+- Bootstrap for creating a responsive website.
+
+
 
 ### Media
 
--   Hero Image was created by the developer using affinity designer to crop and edit photo on to background.
+-   Hero Image was created by the developer using affinity designer to crop and edit photo on to background - [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 
-- All other Images on the site were taken from [Pexels](https://www.pexels.com/)
+- All Images on the site were sourced from - [Pexels](https://www.pexels.com/)
 
-    - 1.   
+-  photographer - Nicholas Swatz 
+-  photographer - Pixabay
+  
 
 ### Acknowledgements
-
--   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
         
