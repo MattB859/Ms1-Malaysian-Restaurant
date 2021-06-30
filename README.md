@@ -256,16 +256,16 @@ This is the main website for Mayas house restaurant. It is designed to be respon
     -   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
 
     -   The website was viewed on a variety of devices such as 
-        1. Desktop 
-        1. Laptop 
-        1. Motorola G4 
-        1. Galaxy S5/7
-        1. Pixel 2
-        1. Pixel 2 XL 
-        1. iPhone 5/SE 
-        1. iPhone 6/7/8/Plus 
-        1. iPhone X, 
-        1. ipad/Pro.
+        - Desktop 
+        - Laptop 
+        - Motorola G4 
+        - Galaxy S5/7
+        - Pixel 2
+        - Pixel 2 XL 
+        - iPhone 5/SE 
+        - iPhone 6/7/8/Plus 
+        - iPhone X, 
+        - ipad/Pro.
 
     -   A large amount of testing was done to ensure that all pages were linking correctly.
 
