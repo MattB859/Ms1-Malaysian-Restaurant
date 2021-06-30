@@ -4,11 +4,9 @@ This is the main website for Maya's house restaurant. It is designed to be respo
 
 [visit website here](https://mattb859.github.io/Ms1-Malaysian-Restaurant/)
 
----
 
 <img align="center" src="./assets/images/mayas-house-img.png">
 
----
 
 ## User Experience (UX)
 
@@ -204,7 +202,6 @@ This is the main website for Maya's house restaurant. It is designed to be respo
         </p>
         
     -   ###  All pages came back with no errors.
----
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -294,7 +291,6 @@ This is the main website for Maya's house restaurant. It is designed to be respo
     5. The page will automatically refresh.
     6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
   
----
 
 -   ### Making a Local Clone
 
@@ -353,4 +349,4 @@ This is the main website for Maya's house restaurant. It is designed to be respo
 -   ### Acknowledgements
 
     - Tutor support at Code Institute for their support.
----        
+      
