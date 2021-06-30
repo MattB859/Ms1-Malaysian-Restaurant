@@ -1,10 +1,14 @@
 <h1 align="center">Mayas House Restaurant Website</h1>
 
-This is the main website for Mayas house restaurant. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
+This is the main website for Maya's house restaurant. It is designed to be responsive and accessible on multiple devices, making it easy to navigate for new and existing visitors.
 
 [visit website here](https://mattb859.github.io/Ms1-Malaysian-Restaurant/)
 
+---
+
 <img align="center" src="./assets/images/mayas-house-img.png">
+
+---
 
 ## User Experience (UX)
 
@@ -53,7 +57,7 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
     -   ### About Us
 
-        1. Here users will find information about our restaurant's history, core values, beliefs and the services we provide for each of our diners.
+        1. Here users will find information about our restaurant's history, core values, beliefs, and the services we provide for each of our diners.
         
         <p align="center">
         <img src="./assets/images/about-us.png">
@@ -61,7 +65,7 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
     -   ### Our Chefs
 
-        1. Visitors can find information about our trained professional Chefs. It is important to know who will be preparing your food and the level of expertise they have, this builds trust with our diners.
+        1. Visitors can find information about our trained professional Chefs. It is important to know who will be preparing your food and the level of expertise they have; this builds trust with our diners.
 
         2. On the right you will find an image of our chefs.
 
@@ -91,7 +95,7 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
     -   ### Contact Us
 
-        1. This is the contact section it opens up in a completely separate page.
+        1. This is the contact section it opens in a separate page.
 
         <p align="center">
         <img src="assets/images/contact.png"> 
@@ -108,7 +112,7 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
     -   ### Footer
         
-        1. On the footer of the website the user can find all our social media links, when clicked a separate page will open up where users can follow us.
+        1. On the footer of the website the user can find all our social media links, when clicked a separate page will open where users can follow us.
         
         <p align="center">
         <img src="assets/images/footer.png">
@@ -119,7 +123,7 @@ This is the main website for Mayas house restaurant. It is designed to be respon
         -    The main colours used for the site are Crimson, white, Black, and Dark Green.
 
     -   ### Typography
-        -    The Merienda font is used for the home page text it adds an authentic feel to the website with Sans Serif for the rest of the websites font.
+        -    The Merienda font is used for the home page text it adds an authentic feel to the website with Sans Serif for the rest of the website's font.
     
     -   ### Wireframes
 
@@ -131,7 +135,7 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
     -   ### Current Features
 
-        1. This is a two page website with 5 sections for the first page and a contact section for the second page.
+        1. This is a two-page website with 5 sections for the first page and a contact section for the second page.
 
         2. All pages are fully responsive on all devices.
 
@@ -143,7 +147,7 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
         3. To add a food and drinks menu page.    
 
-
+---
 
 ## Technologies Used
 
@@ -175,6 +179,8 @@ This is the main website for Mayas house restaurant. It is designed to be respon
     1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 
+---
+
 ## Testing
     
 -   ### Validator Testing    
@@ -198,6 +204,7 @@ This is the main website for Mayas house restaurant. It is designed to be respon
         </p>
         
     -   ###  All pages came back with no errors.
+---
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -215,7 +222,7 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
         1. The website has been designed to be user-friendly and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what section of the website or page they will end up on.
 
-        2. At the bottom of the first 3 pages there is a redirection button which navigates back to the top of the page to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+        2. At the bottom of the first 3 pages there is a redirection button which navigates back to the top of the page to ensure the user always has somewhere to go and does not feel trapped as they get to the bottom of the page.
 
         3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought back to the main home page. 
 
@@ -223,7 +230,7 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
         1.  All social media links can be found at the footer of every page and will open a new tab for the user and more information can be found on the page.
 
-        2. The user can scroll to the bottom of the Home page to find the Instagram, Facebook, Twitter and YouTube icons and with one click will be directed to the social media page which will open in a new tab to ensure they can get back to the website easily.
+        2. The user can scroll to the bottom of the page to find the Instagram, Facebook, Twitter, and YouTube icons and with one click will be directed to the social media page which will open in a new tab to ensure they can get back to the website easily.
 
         3. If the user is on the "Contact" page they will also have access to all social media icons in the footer so they never have to feel restricted on any page.
 
@@ -233,17 +240,11 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
         1. The user would already be comfortable with the website layout and can easily navigate with ease.
 
-    2. As a Frequent User, I want to check to see if there are any new updates.
+    2. As a Frequent User, I want to sign up to the Newsletter so that I am kept informed about any major updates and/or changes to the website or organisation.
 
-        1. The user would already be comfortable with the website's layout and can easily click any link
+        1.  On the home page the user can see a "Sign Up" button. When the user click's the button they will be prompted to Enter their name and email address for our weekly Newsletter.
 
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am kept informed about any major updates and/or changes to the website or organisation.
-
-        1.  At the bottom of every page their is a footer which its content is consistent throughout all pages.
-
-        2.  To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-
-        3.  There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+---
 
 ## Debugging
 
@@ -277,6 +278,8 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 
     -   When the call to action button on the home page is clicked and the modal box appears links in the navbar shake.
 
+---
+
 ## Deployment
 
 -   ### GitHub Pages
@@ -291,6 +294,32 @@ This is the main website for Mayas house restaurant. It is designed to be respon
     5. The page will automatically refresh.
     6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
   
+---
+
+-   ### Making a Local Clone
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    2. Under the repository name, click "Clone or download".
+    3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    4. Open Git Bash
+    5. Change the current working directory to the location where you want the cloned directory to be made.
+    6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+        7. Press Enter. Your local clone will be created.
+
+```
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    > Cloning into `CI-Clone`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
+```
+---
 
 ## Credits
 
@@ -324,4 +353,4 @@ This is the main website for Mayas house restaurant. It is designed to be respon
 -   ### Acknowledgements
 
     - Tutor support at Code Institute for their support.
-        
+---        
