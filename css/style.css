@@ -304,8 +304,7 @@ label {
 
 .open-hours h6{
     font-weight: 800;
-    font-size: 17px;
-  
+    font-size: 17px; 
 }
 
 .find-us {
@@ -336,8 +335,7 @@ iframe {
 .up-button {
     margin-bottom: 10px;
     text-align: center;
-    font-size: 30px;
-    
+    font-size: 30px;    
 }
 
 .fa-chevron-up{
@@ -651,7 +649,7 @@ iframe {
     }
 }
 
-/* Moble Screen Size 375px and under */
+/* Mobile Screen Size 420px and under */
 @media only screen and (max-width: 420px){
 
     .main-container{
@@ -659,8 +657,7 @@ iframe {
         padding: 0 10px;
         margin: auto;
     }
-
-   
+  
     .bg_image {
         background: url('../assets/images/hero-img.jpg') no-repeat center  ;
         background-size: cover;
@@ -754,7 +751,7 @@ iframe {
     }
 } 
 
-/* small screens */
+/* small mobile screens */
 @media only screen and (max-width: 320px){
 
     .main-container{
