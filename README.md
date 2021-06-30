@@ -145,8 +145,6 @@ This is the main website for Maya's house restaurant. It is designed to be respo
 
         3. To add a food and drinks menu page.    
 
----
-
 ## Technologies Used
 
 -   ### Languages Used
@@ -176,8 +174,6 @@ This is the main website for Maya's house restaurant. It is designed to be respo
     -  Affinity Designer was used to create the hero background image for the website.
     1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
-
----
 
 ## Testing
     
@@ -241,8 +237,6 @@ This is the main website for Maya's house restaurant. It is designed to be respo
 
         1.  On the home page the user can see a "Sign Up" button. When the user click's the button they will be prompted to Enter their name and email address for our weekly Newsletter.
 
----
-
 ## Debugging
 
 -   ### Chrome Developer Tools
@@ -274,8 +268,6 @@ This is the main website for Maya's house restaurant. It is designed to be respo
     -   On some mobile devices a white gap can be seen to the right, this then disappears once other mobile, or tablet screen sizes are chosen.
 
     -   When the call to action button on the home page is clicked and the modal box appears links in the navbar shake.
-
----
 
 ## Deployment
 
