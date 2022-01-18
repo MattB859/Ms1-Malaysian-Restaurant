@@ -125,9 +125,9 @@ This is the main website for Maya's house restaurant. It is designed to be respo
     
     -   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/r0742)
-    -   Mobile Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/r2278)
-    -   Tablet Wireframe - [View](https://balsamiq.cloud/seqremb/ppq8zy/rCA01) 
+    -   Home Page Wireframe - [View](assets/images/desktop-wireframe-01.jpg)
+    -   Mobile Wireframe - [View](assets/images/mobile-wireframe-03.jpg)
+    -   Tablet Wireframe - [View](assets/images/tablet-wireframe-02.jpg) 
 
 -   ## Features
 
